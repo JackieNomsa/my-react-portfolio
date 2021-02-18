@@ -1,0 +1,39 @@
+import React from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Footer from "./Footer";
+import Home from "./Newhome";
+import Skill from "./Skill";
+import data from "./skills_data";
+import my_projects from "./project_data";
+import createProject from "./Project";
+import About from "./About";
+
+function App() {
+  return (
+    <Router>
+      <Home />
+      <About />
+      <div className="section-one">
+        <h1 className="heading" id="skills">
+          Skills
+        </h1>
+        <div className="my-skills">
+          <div className="my-icon">
+            <i class="fas fa-cogs"></i>
+          </div>
+          <div className="total_skills">
+            <Skill skills={data} />
+          </div>
+        </div>
+      </div>
+      <div className="myDiv" id="projects">
+        <h1 className="heading">Projects</h1>
+        <div className="cards-section">{my_projects.map(createProject)}</div>
+      </div>
+
+      <Footer />
+    </Router>
+  );
+}
+
+export default App;

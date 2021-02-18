@@ -1,0 +1,1 @@
+export default ['HTML', 'CSS', 'JAVASCRIPT','REACT', 'PYTHON', 'FLASK', 'DJANGO', 'MYSQL'];
