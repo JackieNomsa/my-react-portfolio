@@ -1,7 +1,7 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 import Footer from "./Footer";
-import Home from "./Newhome";
+import Home from "./Home";
 import Skill from "./Skill";
 import data from "./skills_data";
 import my_projects from "./project_data";
