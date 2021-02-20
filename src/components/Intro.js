@@ -4,9 +4,7 @@ export const Intro = ({ value }) => {
   if (value === "loading") {
     return (
       <div>
-        <h1></h1>
         <div className="border-bot"></div>
-        <h2></h2>
       </div>
     );
   } else {

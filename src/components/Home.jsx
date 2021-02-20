@@ -9,13 +9,9 @@ const Home = () => {
     if (value === "loading") {
       return (
         <div className="menu">
-          <h1>
-            <BsCode />
-          </h1>
-          <div className="border-bot"></div>
-          <h1>
-            <BsCodeSlash />
-          </h1>
+          <div className="border-bot">
+            <h1 className="code-tag">....</h1>
+          </div>
         </div>
       );
     } else {
@@ -32,7 +28,7 @@ const Home = () => {
   useEffect(() => {
     setTimeout(() => {
       setValue("loaded");
-    }, 4000);
+    }, 3000);
   });
   return (
     <section className="intro section">

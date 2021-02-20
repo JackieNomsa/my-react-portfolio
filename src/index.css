@@ -19,29 +19,64 @@ body {
   letter-spacing: 5px;
   border-bottom: 2px solid #0ca8ac;
   width: 20%;
-  margin: auto;
+  margin: 20px auto;
   padding: 20px;
   text-align: center;
+  display: block;
 }
 
 /* landing page */
+
 .border-bot {
-  width: 300px;
-  height: 1px;
-  border-bottom: 1px solid turquoise;
-  margin: 40px auto;
+  position: relative;
+
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: linear-gradient(45deg, transparent, transparent 40%, transparent);
+  animation: loader 2s linear infinite;
 }
 
-/* navigation bar */
-/* .v1 {
-  height: 195px;
-  left: 40px;
-  top: 150px;
-  border-left: 1px solid turquoise;
-  position: fixed;
-  opacity: 0.2;
-  box-shadow: 5px 4px 5px turquoise;
-} */
+@keyframes loader {
+  0% {
+    transform: rotate(0deg);
+    filter: hue-rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+    filter: hue-rotate(360deg);
+  }
+}
+
+.border-bot:before {
+  content: "";
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  bottom: 6px;
+  left: 6px;
+
+  background: transparent;
+  border-radius: 50%;
+  z-index: 1000;
+}
+.border-bot:after {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background: linear-gradient(45deg, transparent, transparent 40%, transparent);
+  border-radius: 50%;
+  z-index: 1000;
+  z-index: 1;
+  filter: blur(30px);
+}
+
+.code-tag {
+  font-size: 70px;
+}
 
 .nav-one {
   font-size: 35px;
@@ -67,16 +102,6 @@ body {
   color: #0ca8ac;
 }
 
-/* .v2 {
-  height: 115px;
-  right: 45px;
-  top: 470px;
-  border-left: 1px dashed turquoise;
-  position: fixed;
-  opacity: 0.2;
-  box-shadow: 5px 4px 5px turquoise;
-} */
-
 .nav-two {
   font-size: 30px;
   right: 18px;
@@ -95,13 +120,13 @@ body {
   color: #fff;
 }
 
-.nav-two .proj {
-  background-color: #fff;
+.nav-one .proj {
   font-size: 20px;
-  padding: 5px 5px 0 5px;
+  padding: 7px 0 0 7px;
+  background: #fff;
   transition: background 0.5s ease;
 }
-.nav-two .proj:hover {
+.nav-one .proj:hover {
   background-color: #0ca8ac;
 }
 
@@ -146,7 +171,6 @@ body {
   30% {
     letter-spacing: 20px;
     margin-bottom: -55px;
-    text-shadow: 0 0 0 #1ecdd3;
   }
   85% {
     letter-spacing: 8px;
@@ -156,7 +180,6 @@ body {
   95% {
     letter-spacing: 8px;
     margin-bottom: 10px;
-    text-shadow: 0 0 20px #1ecdd3;
   }
 }
 
@@ -172,17 +195,13 @@ body {
   }
   95% {
     color: #0ca8ac;
+    text-shadow: 0 0 20px #1ecdd3;
   }
 }
 
 .section-one {
   text-align: center;
   height: 100vh;
-}
-
-.menu > div,
-h1 {
-  display: inline;
 }
 
 /* contact */
@@ -216,6 +235,10 @@ h1 {
 }
 
 /* about */
+
+.heading {
+  text-align: center;
+}
 
 .my-passion {
   width: 50%;

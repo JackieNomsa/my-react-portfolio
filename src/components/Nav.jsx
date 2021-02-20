@@ -10,28 +10,6 @@ function Nav(props) {
   return (
     <>
       <div className="nav-one">
-        <a href="#">
-          <attr title="CONTACT ME">
-            <HiOutlineMail />
-          </attr>
-        </a>
-        <a href="https://github.com/JackieNomsa">
-          <attr title="GitHub profile">
-            <IoLogoGithub />
-          </attr>
-        </a>
-        <a href="#">
-          <attr title="LinkedIn profile">
-            <IoLogoLinkedin />
-          </attr>
-        </a>
-        <a href="#">
-          <attr title="View CV">
-            <FaRegFilePdf />
-          </attr>
-        </a>
-      </div>
-      <div className="nav-two">
         <a href="#home">
           <attr title="HOME">
             <IoHome />
@@ -50,6 +28,28 @@ function Nav(props) {
         <a className="proj" href="#projects">
           <attr title="VIEW PROJECTS">
             <GrProjects />
+          </attr>
+        </a>
+      </div>
+      <div className="nav-two">
+        <a href="#">
+          <attr title="CONTACT ME">
+            <HiOutlineMail />
+          </attr>
+        </a>
+        <a href="https://github.com/JackieNomsa">
+          <attr title="GitHub profile">
+            <IoLogoGithub />
+          </attr>
+        </a>
+        <a href="#">
+          <attr title="LinkedIn profile">
+            <IoLogoLinkedin />
+          </attr>
+        </a>
+        <a href="#">
+          <attr title="View CV">
+            <FaRegFilePdf />
           </attr>
         </a>
       </div>
