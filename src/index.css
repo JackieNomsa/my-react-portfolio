@@ -51,37 +51,27 @@ body {
 .border-bot:before {
   content: "";
   position: absolute;
-  /* top: 0.37em;
-  right: 0.37em;
-  bottom: 0.37em;
-  left: 0.37em; */
-
-  /* background: transparent; */
-  /* border-radius: 50%; */
-  /* z-index: 1000; */
+  border-radius: 50%;
 }
 .border-bot:after {
   content: "";
   position: absolute;
-  /* top: 0em;
-  right: 0em;
-  bottom: 0em;
-  left: 0em; */
-  /* background: linear-gradient(45deg, transparent, transparent 40%, transparent); */
-  /* border-radius: 50%; */
-  /* z-index: 1000;
-  z-index: 1; */
+
+  background: linear-gradient(45deg, transparent, transparent 40%, transparent);
+  border-radius: 50%;
+  z-index: 1000;
+  z-index: 1;
 }
 
 .code-tag {
-  font-size: 70px;
+  font-size: 4.5em;
 }
 
 .nav-one {
-  font-size: 35px;
-  left: 19px;
-  top: 100px;
-  padding: 5px;
+  font-size: 2rem;
+  left: 0.7em;
+  top: 2em;
+  padding: 0.2em;
   position: fixed;
   z-index: 1;
   display: grid;
@@ -90,7 +80,7 @@ body {
 
 .nav-one a {
   background-color: transparent;
-  margin-top: 20px;
+  margin-top: 0.8em;
   text-decoration: none;
   color: #fff;
   transition: all 0.5s ease;
@@ -102,9 +92,10 @@ body {
 }
 
 .nav-two {
-  font-size: 30px;
-  right: 18px;
-  top: 380px;
+  font-size: 2rem;
+  right: 0.7em;
+  top: 10em;
+
   position: fixed;
   padding: 5px 0;
   z-index: 1;
@@ -114,14 +105,14 @@ body {
 
 .nav-two a {
   background-color: transparent;
-  margin-top: 20px;
+  margin-top: 0.6em;
 
   color: #fff;
 }
 
 .nav-one .proj {
-  font-size: 20px;
-  padding: 7px 0 0 7px;
+  font-size: 0.6em;
+  padding: 0.3em 0 0 0.3em;
   background: #fff;
   transition: background 0.5s ease;
 }
@@ -143,42 +134,42 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  font-weight: 600;
-  box-shadow: inset 0 0 0 2000px rgba(43, 43, 91, 0.4);
+
+  box-shadow: inset 0 0 0 50em rgba(43, 43, 91, 0.4);
 }
 
 .my-intro .my-name {
-  font-size: 2.5rem;
-  letter-spacing: 8px;
-  margin-bottom: 10px;
+  font-size: 2.1rem;
+  letter-spacing: 0.3em;
+  margin-bottom: 0.3em;
   position: relative;
   animation: text 2s 1;
+  font-weight: bold;
 }
 
 .my-intro .title {
   color: #0ca8ac;
-  font-size: 2rem;
+  font-size: 1.9rem;
   text-shadow: 0 0 20px #1ecdd3;
-  animation: texttwo 2s 1;
+  animation: texttwo 2.5s 1;
 }
 
 @keyframes text {
   0% {
     color: transparent;
-    margin-bottom: -55px;
+    margin-bottom: -2.5em;
   }
   30% {
-    letter-spacing: 20px;
-    margin-bottom: -55px;
+    letter-spacing: 0.5em;
+    margin-bottom: -2.5em;
   }
   85% {
-    letter-spacing: 8px;
-    margin-bottom: -55px;
+    letter-spacing: 0.4em;
+    margin-bottom: -2.5em;
     text-shadow: 0 0 20px #1ecdd3;
   }
   95% {
-    letter-spacing: 8px;
-    margin-bottom: 10px;
+    letter-spacing: 0.5em;
   }
 }
 
@@ -216,19 +207,19 @@ body {
 
 .myPara {
   width: 90%;
-  border-left: 4px solid #0ca8ac;
-  padding-left: 20px;
+  border-left: 0.2em solid #0ca8ac;
+  padding-left: 1.5em;
 }
 
 .myPara:first-child {
-  margin: -40px 30px 50px 50px;
+  margin: -3em 2em 3.5em 3.5em;
 }
 
 .myself {
-  width: 350px;
-  height: 350px;
+  width: 27em;
+  height: 30em;
   border-radius: 50%;
-  padding: 30px;
+
   text-align: right;
 }
 
@@ -242,7 +233,7 @@ body {
 }
 
 .about {
-  line-height: 25px;
+  line-height: 1.5em;
   height: 100vh;
   width: 80%;
   margin: 0 auto;
@@ -257,25 +248,25 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   width: 80%;
-  margin: 4rem auto;
+  margin: 4em auto;
 }
 
 .my-icon {
-  font-size: 15rem;
+  font-size: 18em;
   text-align: left;
   color: #0d879f;
 }
 
 .one-skill {
-  border: 1px solid #041e29;
-  border-radius: 5px;
-  padding: 10px;
+  border: 0.1em solid #072430;
+
+  padding: 0.4em;
   width: 5.2rem;
   height: 5.2rem;
   border-radius: 50%;
   display: grid;
   place-items: center;
-  font-size: 12px;
+  font-size: 0.7em;
   font-weight: bold;
   transition: all 0.5s linear;
 }
@@ -299,13 +290,13 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 20px auto;
+  margin: 2em auto;
 }
 
 .card {
-  margin: 1rem;
+  margin: 1em;
 
-  perspective: 900px;
+  perspective: 34em;
 }
 
 .card-container {
@@ -334,9 +325,9 @@ body {
   text-decoration: none;
   color: #fff;
   background-color: #414242;
-  border: 1px solid #818383;
-  border-radius: 5px;
-  padding: 10px;
+  border: 0.1em solid #818383;
+  border-radius: 0.3em;
+  padding: 0.6em;
   text-align: center;
 }
 
@@ -346,7 +337,7 @@ body {
 }
 
 .card-back p {
-  width: 13rem;
+  width: 13em;
   text-align: center;
 }
 
@@ -355,8 +346,8 @@ body {
 }
 
 .card-container img {
-  width: 15rem;
-  height: 15rem;
+  width: 15em;
+  height: 15em;
 }
 
 .card:hover .card-container {
@@ -371,29 +362,29 @@ body {
   display: grid;
   grid-template-columns: 1fr;
   width: 50%;
-  margin: 20px auto;
+  margin: 1.5em auto;
 }
 .contact-form form > input,
 textarea {
-  margin: 10px;
-  padding: 10px;
-  font-size: 17px;
+  margin: 0.8em;
+  padding: 0.8em;
+  font-size: 1.2em;
   background: rgb(5, 70, 78);
   color: #fff;
   border: none;
-  border-bottom: 1px solid rgb(167, 196, 193);
+  border-bottom: 0.1em solid rgb(167, 196, 193);
 }
 
 .submit-btn {
   color: #fff;
-  width: 150px;
+  width: 6em;
   background-color: #30f5eb;
-  padding: 5px 10px;
+  padding: 0.3em 0.8em;
   border: none;
   margin: auto;
   text-transform: uppercase;
-  font-size: 20px;
-  border-radius: 5px;
+  font-size: 1.1em;
+  border-radius: 0.3em;
 
   transition: all 0.5s ease;
 }
@@ -404,8 +395,9 @@ textarea {
 }
 
 .send-icon {
-  margin-top: 5px;
-  bottom: -5px;
+  margin-bottom: -0.17em;
+  padding-left: 0.2em;
+  font-size: 1.3em;
 }
 
 .my_footer {
@@ -413,7 +405,7 @@ textarea {
   place-items: center;
   background-color: #041e29;
   color: #fff;
-  padding: 2rem;
+  padding: 2em;
   font-weight: bold;
 }
 
@@ -426,11 +418,11 @@ textarea {
 .more-footer a {
   text-decoration: none;
   color: rgb(150, 146, 146);
-  padding: 5px;
+  padding: 0.4em;
 }
 
 .more-footer a:hover {
-  border-bottom: 1px solid #fff;
+  border-bottom: 0.1em solid #fff;
 }
 
 .fade-in {
