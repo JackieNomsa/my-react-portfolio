@@ -1,29 +1,35 @@
-// import React from "react";
+import React, { useEffect } from "react";
+import { IoSend } from "react-icons/io5";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
-
-
-// function Contact(props){
-//     function openNav() {
-//         document.getElementById("myContact").style.display = "block";
-//         document.querySelector('.openbtn').style.opacity="0";
-//       }
-      
-//       function closeNav() {
-//         document.getElementById("myContact").style.display = "none";
-//         document.querySelector('.openbtn').style.opacity="1";
-//       }
-//     return(
-//     <>
-//         <div id="myContact" className="contact-form">
-//             <a href="javascript:void(0)" class="closebtn" onClick={closeNav}><i class="fa fa-close"></i></a>
-//             <form>
-//                 <input type='email' placeholder='Enter your email'/>
-//                 <input type='text' placeholder='Enter subject'/>
-//                 <textarea placeholder='message'></textarea>
-//             </form>
-//         </div>
-//         <a href='javascript:void(0)' className='openbtn' onClick={openNav}><i class="fas fa-envelope-square"></i></a>  
-//     </>
-//     )
-// }
-// export default Contact;
+const Contact = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  });
+  return (
+    <>
+      <div className="contact-form">
+        <h1 className="heading" data-aos="fade-right">
+          Get in touch
+        </h1>
+        <form>
+          <input
+            type="email"
+            placeholder="Enter your email"
+            data-aos="fade-up"
+          />
+          <input type="text" placeholder="Enter subject" data-aos="fade-up" />
+          <textarea
+            placeholder="message"
+            rows="10"
+            data-aos="fade-up"></textarea>
+          <button className="submit-btn" data-aos="fade-right">
+            send <IoSend className="send-icon" />
+          </button>
+        </form>
+      </div>
+    </>
+  );
+};
+export default Contact;

@@ -7,6 +7,8 @@ import data from "./skills_data";
 import my_projects from "./project_data";
 import createProject from "./Project";
 import About from "./About";
+import Contact from "./Contact";
+import { FaCogs } from "react-icons/fa";
 
 function App() {
   return (
@@ -19,7 +21,7 @@ function App() {
         </h1>
         <div className="my-skills">
           <div className="my-icon">
-            <i class="fas fa-cogs"></i>
+            <FaCogs />
           </div>
           <div className="total_skills">
             <Skill skills={data} />
@@ -30,7 +32,7 @@ function App() {
         <h1 className="heading">Projects</h1>
         <div className="cards-section">{my_projects.map(createProject)}</div>
       </div>
-
+      <Contact />
       <Footer />
     </Router>
   );

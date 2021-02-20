@@ -16,11 +16,11 @@ body {
 
 .heading {
   font-weight: lighter;
-  letter-spacing: 5px;
-  border-bottom: 2px solid #0ca8ac;
-  width: 20%;
-  margin: 20px auto;
-  padding: 20px;
+  letter-spacing: 0.3em;
+  border-bottom: 0.01em solid #0ca8ac;
+  width: 30%;
+  margin: 1.2em auto;
+  padding: 1em;
   text-align: center;
   display: block;
 }
@@ -30,8 +30,8 @@ body {
 .border-bot {
   position: relative;
 
-  width: 150px;
-  height: 150px;
+  width: 9em;
+  height: 9em;
   border-radius: 50%;
   background: linear-gradient(45deg, transparent, transparent 40%, transparent);
   animation: loader 2s linear infinite;
@@ -51,27 +51,26 @@ body {
 .border-bot:before {
   content: "";
   position: absolute;
-  top: 6px;
-  right: 6px;
-  bottom: 6px;
-  left: 6px;
+  /* top: 0.37em;
+  right: 0.37em;
+  bottom: 0.37em;
+  left: 0.37em; */
 
-  background: transparent;
-  border-radius: 50%;
-  z-index: 1000;
+  /* background: transparent; */
+  /* border-radius: 50%; */
+  /* z-index: 1000; */
 }
 .border-bot:after {
   content: "";
   position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  background: linear-gradient(45deg, transparent, transparent 40%, transparent);
-  border-radius: 50%;
-  z-index: 1000;
-  z-index: 1;
-  filter: blur(30px);
+  /* top: 0em;
+  right: 0em;
+  bottom: 0em;
+  left: 0em; */
+  /* background: linear-gradient(45deg, transparent, transparent 40%, transparent); */
+  /* border-radius: 50%; */
+  /* z-index: 1000;
+  z-index: 1; */
 }
 
 .code-tag {
@@ -195,43 +194,13 @@ body {
   }
   95% {
     color: #0ca8ac;
-    text-shadow: 0 0 20px #1ecdd3;
+    text-shadow: 0 0 1.2em #1ecdd3;
   }
 }
 
 .section-one {
   text-align: center;
   height: 100vh;
-}
-
-/* contact */
-
-.contact-form {
-  background-color: rgba(4, 30, 41, 0.7);
-  padding: 40px;
-  left: 400px;
-  position: fixed;
-  width: 500px;
-  border-radius: 5%;
-}
-
-.contact-form form {
-  display: grid;
-  grid-template-columns: 1fr;
-}
-
-.contact-form form input {
-  padding: 10px;
-  margin: 10px;
-  border-radius: 5%;
-}
-.contact-form form textarea {
-  height: 200px;
-  margin: 5px;
-}
-
-.closebtn {
-  color: #fff;
 }
 
 /* about */
@@ -276,7 +245,11 @@ body {
   line-height: 25px;
   height: 100vh;
   width: 80%;
-  margin: auto;
+  margin: 0 auto;
+  /* background-image: url("./images/alexandru-acea-XEB8y0nRRP4-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; */
 }
 
 /* Skills */
@@ -295,6 +268,7 @@ body {
 
 .one-skill {
   border: 1px solid #041e29;
+  border-radius: 5px;
   padding: 10px;
   width: 5.2rem;
   height: 5.2rem;
@@ -330,6 +304,7 @@ body {
 
 .card {
   margin: 1rem;
+
   perspective: 900px;
 }
 
@@ -390,6 +365,49 @@ body {
 
 /* card end */
 
+/* contact */
+
+.contact-form form {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 50%;
+  margin: 20px auto;
+}
+.contact-form form > input,
+textarea {
+  margin: 10px;
+  padding: 10px;
+  font-size: 17px;
+  background: rgb(5, 70, 78);
+  color: #fff;
+  border: none;
+  border-bottom: 1px solid rgb(167, 196, 193);
+}
+
+.submit-btn {
+  color: #fff;
+  width: 150px;
+  background-color: #30f5eb;
+  padding: 5px 10px;
+  border: none;
+  margin: auto;
+  text-transform: uppercase;
+  font-size: 20px;
+  border-radius: 5px;
+
+  transition: all 0.5s ease;
+}
+
+.submit-btn:hover {
+  background-color: #c5fcf9;
+  color: #0c343b;
+}
+
+.send-icon {
+  margin-top: 5px;
+  bottom: -5px;
+}
+
 .my_footer {
   display: grid;
   place-items: center;
@@ -413,4 +431,16 @@ body {
 
 .more-footer a:hover {
   border-bottom: 1px solid #fff;
+}
+
+.fade-in {
+  opacity: 0;
+  transition: opacity 250ms ease-in;
+}
+
+.fade-in.appear {
+  opacity: 1;
+}
+
+@media only screen and (max-width: 950px) {
 }

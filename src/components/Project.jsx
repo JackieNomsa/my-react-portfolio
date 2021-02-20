@@ -1,30 +1,37 @@
-import React from "react";
+import React, { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
-function Project(props) {
+const Project = ({ img, title, description, link, data }) => {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  });
   return (
-    <div className="card">
+    <div className="card" data-aos="fade-left">
       <div className="card-container">
         <div className="card-front">
-          <img src={props.img} alt="my app" />
+          <img src={img} alt="my app" />
         </div>
         <div className="card-back">
           <div className="card-b-info">
-            <h4>{props.title}</h4>
-            <p className="myDesc">{props.description}</p>
+            <h4>{title}</h4>
+            <p className="myDesc" data-aos>
+              {description}
+            </p>
             {/* <a href={props.link} target="_blank">view code</a> */}
-            <a href={props.link}>view site</a>
+            <a href={link}>view site</a>
           </div>
         </div>
       </div>
     </div>
   );
-}
+};
 
-function createProject(info) {
+const createProject = (info) => {
   const { img, title, description, link } = info;
   return (
     <Project img={img} title={title} description={description} link={link} />
   );
-}
+};
 
 export default createProject;
