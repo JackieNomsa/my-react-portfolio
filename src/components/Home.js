@@ -16,7 +16,7 @@ const Home = () => {
       );
     } else {
       return (
-        <div>
+        <div id="home">
           <p className="my-name">Jackie Nomsa Dube</p>
 
           <p className="title">A Web Developer</p>

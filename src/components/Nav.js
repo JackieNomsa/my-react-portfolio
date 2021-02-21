@@ -6,7 +6,7 @@ import { FaRegFilePdf } from "react-icons/fa";
 import { SiAboutDotMe } from "react-icons/si";
 import { GiSkills } from "react-icons/gi";
 import { GrProjects } from "react-icons/gr";
-function Nav(props) {
+function Nav() {
   return (
     <>
       <div className="nav-one">
@@ -32,7 +32,7 @@ function Nav(props) {
         </a>
       </div>
       <div className="nav-two">
-        <a href="#">
+        <a href="#contact">
           <attr title="CONTACT ME">
             <HiOutlineMail />
           </attr>
@@ -42,12 +42,12 @@ function Nav(props) {
             <IoLogoGithub />
           </attr>
         </a>
-        <a href="#">
+        <a href="https://www.linkedin.com/in/jackie-nomsa-dube-390b66131">
           <attr title="LinkedIn profile">
             <IoLogoLinkedin />
           </attr>
         </a>
-        <a href="#">
+        <a href="/docs/JackieNomsaDube2.0.pdf">
           <attr title="View CV">
             <FaRegFilePdf />
           </attr>

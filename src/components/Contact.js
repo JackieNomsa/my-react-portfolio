@@ -10,7 +10,7 @@ const Contact = () => {
   return (
     <>
       <div className="contact-form">
-        <h1 className="heading" data-aos="fade-right">
+        <h1 className="heading" data-aos="fade-right" id='contact'>
           Get in touch
         </h1>
         <form>
