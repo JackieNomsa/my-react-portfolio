@@ -215,14 +215,6 @@ body {
   margin: -3em 2em 3.5em 3.5em;
 }
 
-.myself {
-  width: 27em;
-  height: 30em;
-  border-radius: 50%;
-
-  text-align: right;
-}
-
 .more-info {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -237,13 +229,22 @@ body {
   height: 100vh;
   width: 80%;
   margin: 0 auto;
-  /* background-image: url("./images/alexandru-acea-XEB8y0nRRP4-unsplash.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center; */
 }
 
 /* Skills */
+
+.myself {
+  width: 25em;
+  height: 28em;
+  border-radius: 50%;
+  margin-bottom: 2em;
+
+  text-align: right;
+}
+
+#skills {
+  margin-top: 3em;
+}
 .my-skills {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -295,7 +296,6 @@ body {
 
 .card {
   margin: 1em;
-
   perspective: 34em;
 }
 
@@ -434,5 +434,8 @@ textarea {
   opacity: 1;
 }
 
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 1200px) {
+  .cards-section-large {
+    display: none;
+  }
 }

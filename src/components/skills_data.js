@@ -1,1 +1,11 @@
-export default ['HTML', 'CSS', 'JAVASCRIPT','REACT', 'PYTHON', 'FLASK', 'DJANGO', 'MYSQL'];
+const skills_data = [
+  "HTML",
+  "CSS",
+  "JAVASCRIPT",
+  "REACT",
+  "PYTHON",
+  "DJANGO",
+  "MYSQL",
+];
+
+export default skills_data;

@@ -1,5 +1,4 @@
 import React from "react";
-import { BrowserRouter as Router } from "react-router-dom";
 import Footer from "./Footer";
 import Home from "./Home";
 import Skill from "./Skill";
@@ -12,7 +11,7 @@ import { FaCogs } from "react-icons/fa";
 
 function App() {
   return (
-    <Router>
+    <>
       <Home />
       <About />
       <div className="section-one">
@@ -34,7 +33,7 @@ function App() {
       </div>
       <Contact />
       <Footer />
-    </Router>
+    </>
   );
 }
 

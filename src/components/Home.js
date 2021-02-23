@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import Nav from "../components/Nav";
-import { BsCodeSlash, BsCode } from "react-icons/bs";
 
 const Home = () => {
   const [value, setValue] = useState("loading");
