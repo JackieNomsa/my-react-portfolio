@@ -10,17 +10,18 @@ import { CgClose } from "react-icons/cg";
 import { BiMenuAltRight } from "react-icons/bi";
 import { DiDebian } from "react-icons/di";
 
+ function closeNav() {
+   document.getElementById("smallNav").style.width = "0";
+ }
+ function openNav() {
+   document.getElementById("smallNav").style.width = "100%";
+ }
 function Nav() {
-  function closeNav() {
-    document.getElementById("smallNav").style.width = "0";
-  }
-  function openNav() {
-    document.getElementById("smallNav").style.width = "100%";
-  }
+ 
   return (
     <>
       <div className="top-buttons">
-        <span className="menu-small-btn" onClick={openNav}>
+        <span className="menu-small-btn" onClick={() => openNav()}>
           <BiMenuAltRight />
         </span>
         <span className="my-icon-sm">

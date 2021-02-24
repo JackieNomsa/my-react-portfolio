@@ -5,7 +5,6 @@ const my_projects = [
     description:
       "This is a python/django django bloging application. Allows features like editing, deleting and adding a new blog.",
     link: "https://github.com/JackieNomsa/my-django-blog",
-    data: "fade-right",
   },
   {
     img: "/images/proj-2.PNG",
@@ -13,7 +12,6 @@ const my_projects = [
     description:
       "This is a python/flask web app of a travel and tour company with data from a MySQL database",
     link: "https://github.com/JackieNomsa/travel",
-    data: "fade-up",
   },
   {
     img: "/images/proj-3.PNG",
@@ -21,14 +19,12 @@ const my_projects = [
     description:
       "This is a python and BeautifulSoup4 web scrapper, searches data from the IMdb website, and renders it.",
     link: "https://github.com/JackieNomsa/python-web-scrapper",
-    data: "fade-left",
   },
   {
     img: "/images/proj-4.PNG",
     title: "Flask Portfolio",
     description: "This is a python/flask, html and css portfolio website",
     link: "https://github.com/JackieNomsa/jnd-portfolio",
-    data: "fade-right",
   },
   {
     img: "/images/proj-5.PNG",
@@ -36,7 +32,6 @@ const my_projects = [
     description:
       "django to-do list. You can add new to-does, delete and mark completed todos",
     link: "https://github.com/JackieNomsa/django-todo-list",
-    data: "fade-up",
   },
   {
     img: "/images/proj-6.PNG",
@@ -44,7 +39,6 @@ const my_projects = [
     description:
       "This is a Django/Python app that  lets you know if you have reached your budget for the month or how much you have left.",
     link: "https://github.com/JackieNomsa/my_dj_exp_tracker.git",
-    data: "fade-left",
   },
 ];
 export default my_projects;
