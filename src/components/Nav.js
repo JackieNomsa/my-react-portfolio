@@ -6,14 +6,34 @@ import { FaRegFilePdf } from "react-icons/fa";
 import { SiAboutDotMe } from "react-icons/si";
 import { GiSkills } from "react-icons/gi";
 import { GrProjects } from "react-icons/gr";
-
-const myWindow = window.screen.width;
+import { CgClose } from "react-icons/cg";
+import { BiMenuAltRight } from "react-icons/bi";
+import { DiDebian } from "react-icons/di";
 
 function Nav() {
-  if (myWindow < 1025) {
-    return (
-      <>
-        <div className="small-nav">
+  function closeNav() {
+    document.getElementById("smallNav").style.width = "0";
+  }
+  function openNav() {
+    document.getElementById("smallNav").style.width = "100%";
+  }
+  return (
+    <>
+      <div className="top-buttons">
+        <span className="menu-small-btn" onClick={openNav}>
+          <BiMenuAltRight />
+        </span>
+        <span className="my-icon-sm">
+          <DiDebian />
+        </span>
+      </div>
+
+      <div className="small-nav" id="smallNav">
+        <div className="small-links">
+          <button className="close-btn" onClick={() => closeNav()}>
+            <CgClose />
+          </button>
+          <p className="clear"></p>
           <a href="#home">home</a>
           <a href="#about">about</a>
           <a href="#skills">skills</a>
@@ -22,6 +42,7 @@ function Nav() {
           </a>
           <a href="#contact">contact</a>
         </div>
+
         <div className="my-sm-links">
           <a href="https://github.com/JackieNomsa">
             <IoLogoGithub />
@@ -33,11 +54,9 @@ function Nav() {
             <FaRegFilePdf />
           </a>
         </div>
-      </>
-    );
-  } else {
-    return (
-      <>
+      </div>
+
+      <div className="large-nav">
         <div className="nav-one">
           <a href="#home">
             <attr title="HOME">
@@ -82,8 +101,9 @@ function Nav() {
             </attr>
           </a>
         </div>
-      </>
-    );
-  }
+      </div>
+    </>
+  );
 }
+
 export default Nav;

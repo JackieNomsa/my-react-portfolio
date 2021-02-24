@@ -1,6 +1,7 @@
 const skills_data = [
   "HTML",
   "CSS",
+  "BOOTSTRAP",
   "JAVASCRIPT",
   "REACT",
   "PYTHON",

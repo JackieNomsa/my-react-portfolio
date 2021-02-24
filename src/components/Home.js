@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Nav from "../components/Nav";
+import { DiDebian } from "react-icons/di";
 
 const Home = () => {
   const [value, setValue] = useState("loading");
@@ -9,7 +10,9 @@ const Home = () => {
       return (
         <div className="menu">
           <div className="border-bot">
-            <h1 className="code-tag">....</h1>
+            <h1 className="code-tag">
+              <DiDebian />
+            </h1>
           </div>
         </div>
       );
