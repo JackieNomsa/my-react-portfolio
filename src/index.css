@@ -442,10 +442,11 @@ textarea {
     .myPara {
       border-left: 0.4em solid rgb(52, 223, 253);
     }
-    .cards-section {
-      width: 80%;
+    .myDiv {
+      width: 100vw;
+      padding: 7em;
       background-color: transparent;
-      margin: auto;
+
       background-image: none;
       background-attachment: none;
       background: none;
