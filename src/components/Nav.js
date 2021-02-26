@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { HiOutlineMail } from "react-icons/hi";
 import { IoLogoGithub, IoLogoLinkedin } from "react-icons/io";
 import { IoHome } from "react-icons/io5";
@@ -10,18 +10,18 @@ import { CgClose } from "react-icons/cg";
 import { BiMenuAltRight } from "react-icons/bi";
 import { DiDebian } from "react-icons/di";
 
- function closeNav() {
-   document.getElementById("smallNav").style.width = "0";
- }
- function openNav() {
-   document.getElementById("smallNav").style.width = "100%";
- }
 function Nav() {
- 
+  const [navWidth, setNavWidth] = useState(false);
+
+  const toggleNav = () => {
+    setNavWidth(!navWidth);
+  };
+  window.onscroll = () => setNavWidth(false);
+
   return (
     <>
       <div className="top-buttons">
-        <span className="menu-small-btn" onClick={() => openNav()}>
+        <span className="menu-small-btn" onClick={toggleNav}>
           <BiMenuAltRight />
         </span>
         <span className="my-icon-sm">
@@ -29,19 +29,29 @@ function Nav() {
         </span>
       </div>
 
-      <div className="small-nav" id="smallNav">
-        <div className="small-links">
-          <button className="close-btn" onClick={() => closeNav()}>
+      <div>
+        <div
+          className={navWidth ? "small-links active" : "small-links"}
+          id="my-mb-nav">
+          <button className="closebtn" onClick={toggleNav}>
             <CgClose />
           </button>
-          <p className="clear"></p>
-          <a href="#home">home</a>
-          <a href="#about">about</a>
-          <a href="#skills">skills</a>
-          <a className="proj" href="#projects">
+
+          <a href="#home" onClick={toggleNav}>
+            home
+          </a>
+          <a href="#about" onClick={toggleNav}>
+            about
+          </a>
+          <a href="#skills" onClick={toggleNav}>
+            skills
+          </a>
+          <a className="proj" href="#projects" onClick={toggleNav}>
             projects
           </a>
-          <a href="#contact">contact</a>
+          <a href="#contact" onClick={toggleNav}>
+            contact
+          </a>
         </div>
 
         <div className="my-sm-links">
