@@ -70,46 +70,27 @@ function Nav() {
       <div className="large-nav">
         <div className="nav-one">
           <a href="#home">
-            <attr title="HOME">
-              <IoHome />
-            </attr>
+            <IoHome />
           </a>
           <a href="#about">
-            <attr title="ABOUT ME">
-              <SiAboutDotMe />
-            </attr>
+            <SiAboutDotMe />
           </a>
           <a href="#skills">
-            <attr title="MY SKILLS">
-              <GiSkills />
-            </attr>
+            <GiSkills />
           </a>
           <a className="proj" href="#projects">
-            <attr title="VIEW PROJECTS">
-              <GrProjects />
-            </attr>
+            <GrProjects />
           </a>
         </div>
         <div className="nav-two">
           <a href="#contact">
-            <attr title="CONTACT ME">
-              <HiOutlineMail />
-            </attr>
+            <HiOutlineMail />
           </a>
           <a href="https://github.com/JackieNomsa">
-            <attr title="GitHub profile">
-              <IoLogoGithub />
-            </attr>
+            <IoLogoGithub />
           </a>
           <a href="https://www.linkedin.com/in/jackie-nomsa-dube-390b66131">
-            <attr title="LinkedIn profile">
-              <IoLogoLinkedin />
-            </attr>
-          </a>
-          <a href="/docs/JackieNomsaDube2.0.pdf">
-            <attr title="View CV">
-              <FaRegFilePdf />
-            </attr>
+            <IoLogoLinkedin />
           </a>
         </div>
       </div>

@@ -1,5 +1,6 @@
 const my_projects = [
   {
+    id: 0,
     img: "/images/proj-1.PNG",
     title: "Django blog app",
     description:
@@ -7,6 +8,7 @@ const my_projects = [
     link: "https://github.com/JackieNomsa/my-django-blog",
   },
   {
+    id: 1,
     img: "/images/proj-2.PNG",
     title: "Flask web app",
     description:
@@ -14,6 +16,7 @@ const my_projects = [
     link: "https://github.com/JackieNomsa/travel",
   },
   {
+    id: 2,
     img: "/images/proj-3.PNG",
     title: "Movie web scrapper",
     description:
@@ -21,12 +24,14 @@ const my_projects = [
     link: "https://github.com/JackieNomsa/python-web-scrapper",
   },
   {
+    id: 3,
     img: "/images/proj-4.PNG",
     title: "Flask Portfolio",
     description: "This is a python/flask, html and css portfolio website",
     link: "https://github.com/JackieNomsa/jnd-portfolio",
   },
   {
+    id: 4,
     img: "/images/proj-5.PNG",
     title: "To-do list",
     description:
@@ -34,6 +39,7 @@ const my_projects = [
     link: "https://github.com/JackieNomsa/django-todo-list",
   },
   {
+    id: 5,
     img: "/images/proj-6.PNG",
     title: "Expense Tracker",
     description:
