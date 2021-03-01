@@ -60,7 +60,7 @@ const Contact = () => {
             onChange={(e) => setMessage(e.target.value)}
             value={message}
             required></textarea>
-          <button className="submit-btn" data-aos="fade-right">
+          <button className="submit-btn">
             send <IoSend className="send-icon" />
           </button>
         </form>
