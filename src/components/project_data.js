@@ -1,4 +1,4 @@
-import proja from "./images/proj-1.PNG";
+import proja from "../components/images/proj-1.PNG";
 import projb from "./images/proj-2.PNG";
 import projc from "./images/proj-3.PNG";
 import projd from "./images/proj-4.PNG";
@@ -8,7 +8,7 @@ import projf from "./images/proj-6.PNG";
 const my_projects = [
   {
     id: 0,
-    img: { proja },
+    img: proja,
     title: "Django blog app",
     description:
       "This is a python/django django bloging application. Allows features like editing, deleting and adding a new blog.",
@@ -16,7 +16,7 @@ const my_projects = [
   },
   {
     id: 1,
-    img: { projb },
+    img: projb,
     title: "Flask web app",
     description:
       "This is a python/flask web app of a travel and tour company with data from a MySQL database",
@@ -24,7 +24,7 @@ const my_projects = [
   },
   {
     id: 2,
-    img: { projc },
+    img: projc,
     title: "Movie web scrapper",
     description:
       "This is a python and BeautifulSoup4 web scrapper, searches data from the IMdb website, and renders it.",
@@ -32,14 +32,14 @@ const my_projects = [
   },
   {
     id: 3,
-    img: { projd },
+    img: projd,
     title: "Flask Portfolio",
     description: "This is a python/flask, html and css portfolio website",
     link: "https://github.com/JackieNomsa/jnd-portfolio",
   },
   {
     id: 4,
-    img: { proje },
+    img: proje,
     title: "To-do list",
     description:
       "django to-do list. You can add new to-does, delete and mark completed todos",
@@ -47,7 +47,7 @@ const my_projects = [
   },
   {
     id: 5,
-    img: { projf },
+    img: projf,
     title: "Expense Tracker",
     description:
       "This is a Django/Python app that  lets you know if you have reached your budget for the month or how much you have left.",

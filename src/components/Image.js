@@ -1,5 +1,5 @@
 import React from "react";
-import myself from "../images/k.jpg";
+import myself from "./images/k.jpg";
 
 function Image() {
   return (
