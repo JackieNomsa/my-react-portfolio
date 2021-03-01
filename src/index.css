@@ -753,6 +753,7 @@ textarea {
 
   .cards-section {
     width: 70%;
+    margin: auto;
   }
   .cards-section .myDesc {
     display: block;

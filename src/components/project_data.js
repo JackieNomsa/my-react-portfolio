@@ -1,9 +1,9 @@
-import proja from "../images/proj-1.PNG";
-import projb from "../images/proj-2.PNG";
-import projc from "../images/proj-3.PNG";
-import projd from "../images/proj-4.PNG";
-import proje from "../images/proj-5.PNG";
-import projf from "../images/proj-6.PNG";
+import proja from "./images/proj-1.PNG";
+import projb from "./images/proj-2.PNG";
+import projc from "./images/proj-3.PNG";
+import projd from "./images/proj-4.PNG";
+import proje from "./images/proj-5.PNG";
+import projf from "./images/proj-6.PNG";
 
 const my_projects = [
   {
