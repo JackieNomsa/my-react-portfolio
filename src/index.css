@@ -153,6 +153,7 @@ body {
   font-weight: 900;
   color: #d31ea6;
   text-shadow: 0 0 2em #0838d4;
+  letter-spacing: 0.3em;
 }
 
 .my-intro .title {
@@ -442,38 +443,31 @@ textarea {
     text-shadow: 0 0 20px #1ebed3;
     animation: texttwo 2.5s 1;
   }
+}
 
-  @media screen and (min-width: 921px) {
-    /* body {
+@media screen and (min-width: 921px) {
+  /* body {
       background-color: transparent;
     } */
-    .my-intro .my-name {
-      color: #fff;
-      text-shadow: 0 0 3em #d31ea6;
-    }
+  .my-intro .my-name {
+    color: #fff;
+    text-shadow: 0 0 3em #d31ea6;
+  }
 
-    .myPara {
-      border-left: 0.4em solid rgb(52, 223, 253);
-    }
-    .myDiv {
-      width: 100vw;
-      padding: 7em;
-      background-color: transparent;
+  .myPara {
+    border-left: 0.4em solid rgb(52, 223, 253);
+  }
 
-      background-image: none;
-      background-attachment: none;
-      background: none;
-      box-shadow: none;
-    }
+  .about {
+    width: 100vw;
+    padding: 1em;
+    background-image: none;
+    box-shadow: none;
+    overflow: hidden;
+  }
 
-    .about {
-      width: 100vw;
-      padding: 1em;
-      background-image: none;
-
-      box-shadow: none;
-      overflow: hidden;
-    }
+  .myDiv {
+    padding: 10em;
   }
 }
 
@@ -747,9 +741,11 @@ textarea {
 
   /* projects */
   .myDiv {
-    width: 70%;
-    margin: auto;
+    background-image: none;
+    background-color: #0c343b;
+    box-shadow: none;
   }
+
   .cards-section .myDesc {
     display: block;
   }

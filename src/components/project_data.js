@@ -9,7 +9,7 @@ const my_projects = [
   {
     id: 0,
     img: proja,
-    title: "Django blog app",
+    title: "My blogging app",
     description:
       "This is a python/django django bloging application. Allows features like editing, deleting and adding a new blog.",
     link: "https://github.com/JackieNomsa/my-django-blog",
@@ -17,7 +17,7 @@ const my_projects = [
   {
     id: 1,
     img: projb,
-    title: "Flask web app",
+    title: "J n J's travel & tours",
     description:
       "This is a python/flask web app of a travel and tour company with data from a MySQL database",
     link: "https://github.com/JackieNomsa/travel",
