@@ -95,7 +95,7 @@ body {
 
 .my-sm-links {
   position: fixed;
-  top: 50%;
+  top: 70%;
   right: 2%;
   z-index: 1;
   display: block;
@@ -104,7 +104,7 @@ body {
 }
 .my-sm-links a {
   color: #fff;
-  font-size: 1.7em;
+  font-size: 2em;
   display: block;
   padding: 1em 0 0 0;
 }
@@ -206,7 +206,7 @@ body {
   font-size: 1.4em;
   color: #ff4f58ff;
   margin: auto;
-  padding: 1em;
+  padding-bottom: 1em;
   border-bottom: 2px solid #669db3ff;
 }
 
@@ -394,6 +394,15 @@ textarea {
   margin-bottom: -0.1em;
   padding-left: 0.2em;
   font-size: 1em;
+}
+
+#email-text {
+  font-weight: bolder;
+  display: block;
+  font-style: italic;
+  text-align: center;
+  width: 50%;
+  margin: auto;
 }
 
 .my_footer {

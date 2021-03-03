@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { HiOutlineMail } from "react-icons/hi";
 import { IoLogoGithub, IoLogoLinkedin } from "react-icons/io";
 import { IoHome } from "react-icons/io5";
-import { FaRegFilePdf } from "react-icons/fa";
 import { SiAboutDotMe } from "react-icons/si";
 import { GiSkills } from "react-icons/gi";
 import { GrProjects } from "react-icons/gr";
@@ -60,9 +59,6 @@ function Nav() {
           </a>
           <a href="https://www.linkedin.com/in/jackie-nomsa-dube-390b66131">
             <IoLogoLinkedin />
-          </a>
-          <a href="/docs/JackieNomsaDube2.0.pdf">
-            <FaRegFilePdf />
           </a>
         </div>
       </div>
