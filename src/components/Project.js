@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -22,7 +23,10 @@ const Project = ({ id, img, title, description, link, site_link }) => {
             <a href={link} target="_blank" rel="noreferrer">
               view code
             </a>
-            <a href={site_link}>live site</a>
+
+            <a href={site_link} target="_blank" rel="noreferrer">
+              view code
+            </a>
           </div>
         </div>
       </div>
@@ -31,9 +35,15 @@ const Project = ({ id, img, title, description, link, site_link }) => {
 };
 
 const createProject = (info) => {
-  const { img, title, description, link } = info;
+  const { img, title, description, link, site_link } = info;
   return (
-    <Project img={img} title={title} description={description} link={link} />
+    <Project
+      img={img}
+      title={title}
+      description={description}
+      link={link}
+      site_link={site_link}
+    />
   );
 };
 
