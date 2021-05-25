@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
-const Project = ({ id, img, title, description, link }) => {
+const Project = ({ id, img, title, description, link, site_link }) => {
   useEffect(() => {
     Aos.init({ duration: 2000 });
   });
@@ -18,8 +18,9 @@ const Project = ({ id, img, title, description, link }) => {
             <p className="myDesc" data-aos>
               {description}
             </p>
-            {/* <a href={props.link} target="_blank">view code</a> */}
+
             <a href={link}>view code</a>
+            {/* <a href={site_link}>view site</a> */}
           </div>
         </div>
       </div>

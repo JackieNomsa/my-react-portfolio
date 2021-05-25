@@ -17,8 +17,8 @@ const About = () => {
       </p>
       <div className="more-info about-animate">
         <div>
-          <Para info="As fun as my learning journey has been it has also been challenging, but that has not stopped or deferred me because i am passionate about computer programming." />
-          <Para info="I would like to work in a stable and professional environment as this will allow me to utilize my skills and hopefully improve them significantly." />
+          <Para info="I am 27 years old female, the third child of a family of seven. I am passionate about Software Engineering and Cyber Security." />
+          <Para info="I have both the skills of a frontend and a backend developer as well as working with databases. Have a look at my Github portfolio if you'd like to find out more about my work." />
         </div>
         <Image />
       </div>

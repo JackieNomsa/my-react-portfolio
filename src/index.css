@@ -160,7 +160,7 @@ body {
   color: #669db3ff;
   font-size: 1.1rem;
   text-shadow: 0 0 20px #1ebed3;
-  animation: texttwo 2.5s 1;
+  animation: texttwo 2s 1;
 }
 @keyframes text {
   0% {
@@ -321,6 +321,8 @@ body {
   text-decoration: none;
   color: #fff;
   background-color: #669db3ff;
+  font-size: 0.9em;
+  margin: 0.5em;
 
   border-radius: 0.3em;
   padding: 0.6em;
@@ -348,6 +350,15 @@ body {
 .card h4 {
   font-size: 1.2em;
   color: #f01179;
+}
+
+.contact-form p {
+  width: 50%;
+  margin: 1em auto;
+  color: #f01179;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.1em;
 }
 
 .contact-form {

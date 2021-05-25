@@ -42,8 +42,10 @@ const Contact = () => {
     <>
       <div className="contact-form">
         <h1 className="heading" data-aos="fade-right" id="contact">
-          Get in touch
+          Drop me a line
         </h1>
+        <p>If you have any potential projects in mind or just to say 'Hi'. </p>
+
         <form action="https://formspree.io/f/maylgqjl" method="post" id="form">
           <input
             type="email"
