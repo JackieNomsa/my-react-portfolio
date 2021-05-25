@@ -13,6 +13,7 @@ const my_projects = [
     description:
       "This is a python/django django bloging application. Allows features like editing, deleting and adding a new blog.",
     link: "https://github.com/JackieNomsa/my-django-blog",
+    site_link: "https://jackienomsa.github.io/kasi-rooms/",
   },
   {
     id: 1,
@@ -21,6 +22,7 @@ const my_projects = [
     description:
       "This is a python/flask web app of a travel and tour company with data from a MySQL database",
     link: "https://github.com/JackieNomsa/travel",
+    site_link: "https://jackienomsa.github.io/kasi-rooms/",
   },
   {
     id: 2,
@@ -29,13 +31,15 @@ const my_projects = [
     description:
       "This is a python and BeautifulSoup4 web scrapper, searches data from the IMdb website, and renders it.",
     link: "https://github.com/JackieNomsa/python-web-scrapper",
+    site_link: "https://jackienomsa.github.io/kasi-rooms/",
   },
   {
     id: 3,
     img: projd,
-    title: "Flask Portfolio",
-    description: "This is a python/flask, html and css portfolio website",
-    link: "https://github.com/JackieNomsa/jnd-portfolio",
+    title: "Kasi-Rooms",
+    description: "React and python/Django site",
+    link: "https://github.com/JackieNomsa/kasi-rooms",
+    site_link: "https://jackienomsa.github.io/kasi-rooms/",
   },
   {
     id: 4,
@@ -53,6 +57,7 @@ const my_projects = [
     description:
       "This is a Django/Python app that  lets you know if you have reached your budget for the month or how much you have left.",
     link: "https://github.com/JackieNomsa/my_dj_exp_tracker.git",
+    site_link: "https://jackienomsa.github.io/kasi-rooms/",
   },
 ];
 export default my_projects;

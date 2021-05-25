@@ -19,8 +19,10 @@ const Project = ({ id, img, title, description, link, site_link }) => {
               {description}
             </p>
 
-            <a href={link}>view code</a>
-            {/* <a href={site_link}>view site</a> */}
+            <a href={link} target="_blank" rel="noreferrer">
+              view code
+            </a>
+            <a href={site_link}>live site</a>
           </div>
         </div>
       </div>
