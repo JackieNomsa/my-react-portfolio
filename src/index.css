@@ -354,12 +354,11 @@ body {
 }
 
 .contact-form p {
-  width: 50%;
+  width: 70%;
   margin: 1em auto;
   color: #f01179;
   font-weight: bold;
   text-align: center;
-  font-size: 1.1em;
 }
 
 .contact-form {
