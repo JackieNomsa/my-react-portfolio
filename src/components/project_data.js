@@ -21,8 +21,8 @@ const my_projects = [
     title: "J n J's travel & tours",
     description:
       "This is a python/flask web app of a travel and tour company with data from a MySQL database",
-    link: "https://github.com/JackieNomsa/travel",
-    site_link: "https://github.com/JackieNomsa/travel_.git",
+    link: "https://github.com/JackieNomsa/travel_.git",
+    site_link: "https://jackienomsa.github.io/kasi-rooms/",
   },
   {
     id: 2,
