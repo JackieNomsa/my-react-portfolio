@@ -22,7 +22,7 @@ const my_projects = [
     description:
       "This is a python/flask web app of a travel and tour company with data from a MySQL database",
     link: "https://github.com/JackieNomsa/travel",
-    site_link: "https://jackienomsa.github.io/kasi-rooms/",
+    site_link: "https://github.com/JackieNomsa/travel_.git",
   },
   {
     id: 2,
@@ -30,7 +30,7 @@ const my_projects = [
     title: "Movie web scrapper",
     description:
       "This is a python and BeautifulSoup4 web scrapper, searches data from the IMdb website, and renders it.",
-    link: "https://github.com/JackieNomsa/python-web-scrapper",
+    link: "https://github.com/JackieNomsa/python-web-scrapper.git",
     site_link: "https://jackienomsa.github.io/kasi-rooms/",
   },
   {
