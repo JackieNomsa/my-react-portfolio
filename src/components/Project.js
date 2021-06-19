@@ -25,7 +25,7 @@ const Project = ({ id, img, title, description, link, site_link }) => {
             </a>
 
             <a href={site_link} target="_blank" rel="noreferrer">
-              view code
+              view site
             </a>
           </div>
         </div>

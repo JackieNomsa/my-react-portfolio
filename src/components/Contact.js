@@ -42,7 +42,7 @@ const Contact = () => {
     <>
       <div className="contact-form">
         <h1 className="heading" data-aos="fade-right" id="contact">
-          Drop me a line
+          Drop me an email
         </h1>
         <p>If you have any potential projects in mind or just to say 'Hi'. </p>
 
