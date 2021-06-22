@@ -13,12 +13,12 @@ const About = () => {
       <h1 className="heading">About</h1>
       <h1 className="name about-animate">Hi There, I'm Jackie!</h1>
       <p className="my-passion about-animate" data-aos="fade-right">
-        A self taught Web Developer
+        A Web Developer
       </p>
       <div className="more-info about-animate">
         <div>
-          <Para info="I am 27 years old female, the third child of a family of seven. I am passionate about Software Engineering and Cyber Security." />
-          <Para info="I have both the skills of a frontend and a backend developer as well as working with databases. Have a look at my Github portfolio if you'd like to find out more about my work." />
+          <Para info="As a self taught developer with a number of years learning in the field, I can develop Apps, Sites, Games etc" />
+          <Para info="With every Project I take on, I make sure to complete it on time, Stick to what the Client wants and give my opinion where it is needed. Take a look at my projects section and see some of the work I've done or am working on." />
         </div>
         <Image />
       </div>

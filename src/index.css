@@ -36,6 +36,22 @@ body {
   display: block;
   position: fixed;
 }
+
+.top-buttons a {
+  position: fixed;
+  left: 1em;
+  top: 40em;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #1ebed3;
+  padding: 0.4em 1em;
+  font-size: small;
+}
+
+.top-buttons a:hover {
+  background-color: #1ebed3;
+  border: 1px solid #d31ea6;
+}
 .small-links {
   height: 0;
   width: 100%;
@@ -162,6 +178,7 @@ body {
   text-shadow: 0 0 20px #1ebed3;
   animation: texttwo 2s 1;
 }
+
 @keyframes text {
   0% {
     color: transparent;
