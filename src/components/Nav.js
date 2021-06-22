@@ -26,7 +26,7 @@ function Nav() {
         <span className="my-icon-sm">
           <DiDebian />
         </span>
-        <a href="#contact">Have a Job for me ?</a>
+        <a href="#contact">Have a Job ?</a>
       </div>
 
       <div>
