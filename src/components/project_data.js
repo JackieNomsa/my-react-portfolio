@@ -47,7 +47,7 @@ const my_projects = [
     title: "Table Tennis",
     description: "Python and pygame digital table  tennis, for two players.",
     link: "https://github.com/JackieNomsa/TableTennis",
-    site_link: "https://jackienomsa.github.io/react-todo-app/",
+    site_link: "https://jackienomsa.github.io/TableTennis/",
   },
   {
     id: 5,
