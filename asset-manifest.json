@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/my-react-portfolio/static/css/main.c5a026f9.chunk.css",
-    "main.js": "/my-react-portfolio/static/js/main.e1c822bc.chunk.js",
-    "main.js.map": "/my-react-portfolio/static/js/main.e1c822bc.chunk.js.map",
+    "main.js": "/my-react-portfolio/static/js/main.90348638.chunk.js",
+    "main.js.map": "/my-react-portfolio/static/js/main.90348638.chunk.js.map",
     "runtime-main.js": "/my-react-portfolio/static/js/runtime-main.28199159.js",
     "runtime-main.js.map": "/my-react-portfolio/static/js/runtime-main.28199159.js.map",
     "static/css/2.7fc9bc2b.chunk.css": "/my-react-portfolio/static/css/2.7fc9bc2b.chunk.css",
@@ -19,13 +19,13 @@
     "static/media/proj-3.b79421f8.PNG": "/my-react-portfolio/static/media/proj-3.b79421f8.PNG",
     "static/media/proj-4.78f21e5f.PNG": "/my-react-portfolio/static/media/proj-4.78f21e5f.PNG",
     "static/media/proj-6.1a6d5327.PNG": "/my-react-portfolio/static/media/proj-6.1a6d5327.PNG",
-    "static/media/proj7.961d1554.PNG": "/my-react-portfolio/static/media/proj7.961d1554.PNG"
+    "static/media/table-tennis.c76954ef.PNG": "/my-react-portfolio/static/media/table-tennis.c76954ef.PNG"
   },
   "entrypoints": [
     "static/js/runtime-main.28199159.js",
     "static/css/2.7fc9bc2b.chunk.css",
     "static/js/2.1e47b100.chunk.js",
     "static/css/main.c5a026f9.chunk.css",
-    "static/js/main.e1c822bc.chunk.js"
+    "static/js/main.90348638.chunk.js"
   ]
 }
