@@ -320,9 +320,11 @@ body {
 
 .cards-section {
   width: 100%;
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: center; */
   margin: auto;
 }
 .myDiv {
@@ -348,7 +350,7 @@ body {
 }
 
 .cards-section img {
-  width: 17em;
+  width: 20em;
   height: 15em;
   border-radius: 3%;
 }
@@ -780,7 +782,7 @@ textarea {
   .myDiv {
     background-image: none;
     background-color: #0c343b;
-    box-shadow: none;
+    /* box-shadow: none; */
   }
 
   .cards-section .myDesc {
@@ -789,12 +791,12 @@ textarea {
 
   .card {
     margin: 1.4em;
-    perspective: 34em;
+    perspective: 30em;
     padding: 0;
   }
 
   .card h4 {
-    font-size: 1.2em;
+    font-size: 2em;
     color: #181617;
   }
 
@@ -813,7 +815,7 @@ textarea {
   .card-back {
     grid-area: 1 / 1;
     background-color: #fff;
-    transform: rotateY(180deg);
+    /* transform: rotateY(180deg); */
     display: grid;
     place-items: center;
     color: #041e29;
@@ -825,7 +827,6 @@ textarea {
     color: #fff;
     background-color: #414242;
     border: 0.1em solid #818383;
-    border-radius: 0.3em;
     padding: 0.6em;
     text-align: center;
   }
@@ -847,11 +848,11 @@ textarea {
 
   .card-container img {
     width: 15em;
-    height: 15em;
+    height: 30em;
   }
 
   .card:hover .card-container {
-    transform: rotateY(180deg);
+    transform: rotateX(90deg);
   }
 
   /* card end */
