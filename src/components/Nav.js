@@ -1,6 +1,4 @@
 import React, { useState } from "react";
-import { HiOutlineMail } from "react-icons/hi";
-import { IoLogoGithub, IoLogoLinkedin } from "react-icons/io";
 import { IoHome } from "react-icons/io5";
 import { SiAboutDotMe } from "react-icons/si";
 import { GiSkills } from "react-icons/gi";
@@ -26,7 +24,7 @@ function Nav() {
         <span className="my-icon-sm">
           <DiDebian />
         </span>
-        <a href="#contact">Have a job in mind ?</a>
+        
       </div>
 
       <div>
@@ -54,14 +52,7 @@ function Nav() {
           </a>
         </div>
 
-        <div className="my-sm-links">
-          <a href="https://github.com/JackieNomsa">
-            <IoLogoGithub />
-          </a>
-          <a href="https://www.linkedin.com/in/jackie-nomsa-dube-390b66131">
-            <IoLogoLinkedin />
-          </a>
-        </div>
+        
       </div>
 
       <div className="large-nav">
@@ -79,17 +70,7 @@ function Nav() {
             <GrProjects />
           </a>
         </div>
-        <div className="nav-two">
-          <a href="#contact">
-            <HiOutlineMail />
-          </a>
-          <a href="https://github.com/JackieNomsa">
-            <IoLogoGithub />
-          </a>
-          <a href="https://www.linkedin.com/in/jackie-nomsa-dube-390b66131">
-            <IoLogoLinkedin />
-          </a>
-        </div>
+        
       </div>
     </>
   );

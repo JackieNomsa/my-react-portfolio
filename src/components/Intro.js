@@ -12,7 +12,7 @@ export const Intro = ({ value }) => {
       <div>
         <p className="my-name">Jackie Nomsa Dube</p>
 
-        <p className="title">A Web Developer</p>
+        <p className="title">A Software Engineer</p>
       </div>
     );
   }
