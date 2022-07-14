@@ -319,12 +319,13 @@ body {
 /* projects */
 
 .cards-section {
-  width: 100%;
+  width: 90%;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  /* display: flex;
-  flex-wrap: wrap;
-  justify-content: center; */
+   /* display: flex;  */
+  /* flex-wrap: wrap; */
+  /* justify-content: center; */
+  text-align: center;
   margin: auto;
 }
 .myDiv {
@@ -350,8 +351,8 @@ body {
 }
 
 .cards-section img {
-  width: 20em;
-  height: 20em;
+  width: 10em;
+  height: 10em;
   /* border-radius: 3%; */
 }
 .cards-section .myDesc {
@@ -361,9 +362,7 @@ body {
 .card {
   background-color: #f0f6f7ff;
   margin: 1em;
-  /* border-radius: 3%; */
   text-align: center;
-  box-shadow: 0.5em 0.7em 1em #000;
   padding: 0 0 2em 0;
 }
 
@@ -781,30 +780,35 @@ textarea {
   /* projects */
   .myDiv {
     background-image: none;
-    background-color: #A2AB91;
+    background-color: #43ccba;
     box-shadow: none;
     
   }
 
   .cards-section .myDesc {
     display: block;
+    width: 80%;
 
   }
 
   .card {
-    margin: 2em;
-    perspective: 70em;
-    padding: 0;
+    width: 60%;
+    background-color: #43ccba;
+    perspective: 80em;
+    padding: 1em 2em;
+    margin: auto;
+    margin-top: 1em;
   }
 
   .card h4 {
-    font-size: 2em;
+    font-size: 2.6em;
     color: #181617;
   }
 
   .card-container {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
     justify-content: center;
     transition: all .6s ease-in-out;
     transform-style: preserve-3d;
@@ -816,7 +820,7 @@ textarea {
 
   .card-back {
     grid-area: 1 / 1;
-    background-color: #fff;
+    background-color: #F5F6EE;
     transform: rotateX(-90deg);
     display: grid;
     place-items: center;
@@ -848,8 +852,8 @@ textarea {
   }
 
   .card-container img {
-    width: 50em;
-    height: 30em;
+    width: 30em;
+    height: 20em;
   }
 
   .card:hover .card-container {
