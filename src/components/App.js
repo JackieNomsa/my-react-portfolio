@@ -31,7 +31,7 @@ function App() {
         <h1 className="heading">Projects</h1>
         <div className="cards-section">{my_projects.map(createProject)}</div>
       </div>
-      <Contact />
+      {/* <Contact /> */}
       <Footer />
     </>
   );

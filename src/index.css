@@ -110,19 +110,14 @@ body {
 }
 
 .my-sm-links {
-  position: fixed;
-  top: 70%;
-  right: 2%;
-  z-index: 1;
-  display: block;
   padding: 0;
   margin: 0;
 }
+
 .my-sm-links a {
   color: #fff;
   font-size: 2em;
-  display: block;
-  padding: 1em 0 0 0;
+  padding: 1em;
 }
 
 .border-bot {
@@ -263,9 +258,9 @@ body {
 }
 
 .myself {
-  width: 10em;
+  width: 12em;
   height: 12em;
-  border-radius: 50%;
+  /* border-radius: 50%; */
 
   margin: 2em 2em 0 0;
 }
@@ -273,7 +268,7 @@ body {
 /* skills */
 
 .section-one {
-  background-image: url("https://images.unsplash.com/photo-1612386649318-17add06ed4ac?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTF8fHB1enpsZXN8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+  background-image: url("./components/images/one.jpg");
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
@@ -360,7 +355,7 @@ body {
 }
 
 .card {
-  background-color: #f0f6f7ff;
+  /* background-color: #f0f6f7ff; */
   margin: 1em;
   text-align: center;
   padding: 0 0 2em 0;
@@ -524,9 +519,9 @@ textarea {
   .small-nav {
     display: none;
   }
-  .my-sm-links {
+  /* .my-sm-links {
     display: none;
-  }
+  } */
   .menu-small-btn {
     display: none;
   }
@@ -535,7 +530,7 @@ textarea {
     display: block;
   }
   body {
-    background-color: #A2AB91;
+    background-color: #041E29;
   }
 
   .heading {
@@ -603,7 +598,7 @@ textarea {
 
   .nav-one {
     font-size: 2rem;
-    left: 0.7em;
+    right: 1.2em;
     top: 2em;
     padding: 0.2em;
     position: fixed;
@@ -724,8 +719,8 @@ textarea {
     background-color: inherit;
   }
   .myself {
-    width: 21em;
-    height: 23em;
+    width: 25em;
+    height: 30em;
     margin-bottom: 2em;
     text-align: right;
   }
@@ -751,9 +746,8 @@ textarea {
 
   .one-skill {
     box-shadow: none;
-    border: 0.1em solid #072430;
-    background-color: #A2AB91;
-    padding: 0.4em;
+    background-color: #072430;
+    padding: 0.7em;
     width: 5.2rem;
     height: 5.2rem;
     border-radius: 50%;
@@ -767,7 +761,7 @@ textarea {
 
   .one-skill:hover {
     background-color: #fff;
-    color: #A2AB91;
+    color: #072430;
   }
 
   .total_skills {
@@ -780,7 +774,7 @@ textarea {
   /* projects */
   .myDiv {
     background-image: none;
-    background-color: #43ccba;
+    /* background-color: #43ccba; */
     box-shadow: none;
     
   }
@@ -793,7 +787,7 @@ textarea {
 
   .card {
     width: 60%;
-    background-color: #43ccba;
+    background-color: 041E29;
     perspective: 80em;
     padding: 1em 2em;
     margin: auto;
