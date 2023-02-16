@@ -11,16 +11,27 @@ const About = () => {
   return (
     <div className="about" id="about">
       <h1 className="heading">About</h1>
-      <h1 className="name about-animate">Hi There, I'm Jackie!</h1>
-      <p className="my-passion about-animate" data-aos="fade-right">
+      <h1 className="name about-animate">Hi, I am Jackie, nice to meet you</h1>
+      {/* <p className="my-passion about-animate" data-aos="fade-right">
         A Software Engineer
-      </p>
+      </p> */}
       <div className="more-info about-animate">
-        <div>
-        
+        <div className="paragraphs">
+          <Para info="I am a full stack developer intern at absa where I enjoy challenges as they come, working on with Java, Springboot, angular and postgres , I completed my studies at WeThinkCode_ where I learnt:"
+          points={["Writing acceptance tests",
+          "Refactoring existing code",
+          "Using CodeScene to understand my codebase and its health",
+          "Persistence with relational databases, SQL, JDBC",
+          "Builds and build pipelines",
+          "Docker containers",
+          "Separation of Concerns",
+          "Building HTTP and Web APIs"]} />
 
-          <Para info="Jackie is currently a second year student at WeThinkCode_,Currently working on Server Socket programming. She is skilled and both front-end and back-end development she also was a freelance web developer before joining WeThinkCode_ and still is . She can build applications in Java, Python and JavaScript." />
-          <Para info="She is looking to improve the skills she currently has in order to pursue a successful career as a Pen Tester (perform simulated cyberattacks on a company's computer systems and networks) in order to make the internet and technology in general a safe space for generations to come." />
+          <Para info="I enjoy being challenged, I have learnt how to creatively solve problems,
+           with each giving me an idea on how to solve our world's everyday problems using code, I know how to look at a problem and figure out a solution that is specific to it and can be integrated. I also enjoy reading code just to figure out how it can be broken,
+           put together, and improved on or done differently." />
+
+          <Para info="I am currently improving my full stack development skills but I also am interested DevOps, and cloud computing which will help me in pursuing a career in Cyber Security specifically Penetration testing in the near future."/>
         </div>
         <Image />
       </div>

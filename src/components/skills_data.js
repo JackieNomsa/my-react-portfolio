@@ -1,12 +1,13 @@
 const skills_data = [
-  "HTML",
-  "CSS",
-  "BOOTSTRAP",
+  "JAVA",
+  "SPRING BOOT",
+  "ANGULAR",
   "JAVASCRIPT",
   "REACT",
   "PYTHON",
-  "DJANGO",
-  "MYSQL",
+  "POSTGRES",
+  "CSS3",
+  "HTML5",
 ];
 
 export default skills_data;

@@ -9,9 +9,9 @@ import { BiPhoneCall } from "react-icons/bi";
 function Footer(){
     return(
         <div className="my_footer">
-            <div>
+            <div className="contact_details">
                 <p><HiOutlineMail/> jackienomsa3@gmail.com</p>
-                <p><FaWhatsapp/> 067 076 9436</p>
+                {/* <p><FaWhatsapp/> 067 076 9436</p> */}
                 <p><BiPhoneCall/> 067 076 9436</p>
             </div>
             <div className="my-sm-links">
