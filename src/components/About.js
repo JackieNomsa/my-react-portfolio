@@ -17,15 +17,15 @@ const About = () => {
       </p> */}
       <div className="more-info about-animate">
         <div className="paragraphs">
-          <Para info="I am a full stack developer intern at absa where I enjoy challenges as they come, working on with Java, Springboot, angular and postgres , I completed my studies at WeThinkCode_ where I learnt:"
-          points={["Writing acceptance tests",
-          "Refactoring existing code",
-          "Using CodeScene to understand my codebase and its health",
-          "Persistence with relational databases, SQL, JDBC",
-          "Builds and build pipelines",
-          "Docker containers",
-          "Separation of Concerns",
-          "Building HTTP and Web APIs"]} />
+          <Para info="I am a full stack developer intern at absa where I enjoy challenges as they come, working on with Java, Springboot, angular and postgres , I completed my studies at WeThinkCode_ where I learnt
+            how to write acceptance tests,
+          Refactor existing code,
+          Using CodeScene to understand my codebase and its health,
+          Persistence with relational databases, SQL, JDBC,
+          Build pipelines,
+          Docker containers,
+          Separation of Concerns and
+          Building HTTP and Web APIs" />
 
           <Para info="I enjoy being challenged, I have learnt how to creatively solve problems,
            with each giving me an idea on how to solve our world's everyday problems using code, I know how to look at a problem and figure out a solution that is specific to it and can be integrated. I also enjoy reading code just to figure out how it can be broken,
