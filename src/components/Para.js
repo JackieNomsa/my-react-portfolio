@@ -5,12 +5,7 @@ function Para(props) {
     <>
     <p className="myPara about-animate" data-aos="fade-up-right">
       {props.info}
-      {/* <ul>
-        {props.points.map(function(point){
-            return <li>{point}</li>;
-          })}
-        </ul>
-      {props.points}  */}
+      
     </p>
     </>
   );

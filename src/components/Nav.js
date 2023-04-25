@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { IoHome } from "react-icons/io5";
-import { SiAboutDotMe } from "react-icons/si";
+import { SiAboutdotme } from "react-icons/si";
 import { GiSkills } from "react-icons/gi";
 import { GrProjects } from "react-icons/gr";
 import { CgClose } from "react-icons/cg";
@@ -61,7 +61,7 @@ function Nav() {
             <IoHome />
           </a>
           <a href="#about">
-            <SiAboutDotMe />
+            <SiAboutdotme />
           </a>
           <a href="#skills">
             <GiSkills />
