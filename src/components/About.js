@@ -12,9 +12,6 @@ const About = () => {
     <div className="about" id="about">
       <h1 className="heading">About</h1>
       <h1 className="name about-animate">Hi there, I am Jackie,</h1>
-      {/* <p className="my-passion about-animate" data-aos="fade-right">
-        A Software Engineer
-      </p> */}
       <div className="more-info about-animate">
       <Image />
         <div className="paragraphs">

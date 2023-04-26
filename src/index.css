@@ -234,13 +234,10 @@ body {
 
 .myPara {
   width: 80%;
-  /* border-left: 0.3em solid #ff4f58ff; */
   padding-left: 0.5em;
   margin: 2em 2em 0 0;
   text-align: left;
   border-left: .15em solid #265456;
-  /* border-width: 1em; */
-  /* padding-bottom: 1em; */
 }
 
 .more-info {
@@ -279,7 +276,6 @@ body {
 .myself {
   width: 12em;
   height: 12em;
-  /* border-radius: 50%; */
 
 }
 
@@ -358,21 +354,15 @@ body {
   margin: 0.5em;
   cursor: pointer;
 
-  /* border-radius: 0.3em; */
   padding: 0.6em;
   text-align: center;
 }
 
-.cards-section img {
-  
-  /* border-radius: 3%; */
-}
 .cards-section .myDesc {
   display: none;
 }
 
 .card {
-  /* background-color: #f0f6f7ff; */
   margin: 1em;
   text-align: center;
   padding: 0 0 2em 0;
@@ -508,17 +498,12 @@ textarea {
 }
 
 @media screen and (min-width: 921px) {
-  /* body {
-      background-color: transparent;
-    } */
   .my-intro .my-name {
     color: #fff;
     text-shadow: 0 0 3em #d31ea6;
   }
 
-  .myPara {
-    /* border-left: 0.4em solid rgb(52, 223, 253); */
-  }
+
 
   .about {
     width: 100vw;
@@ -548,9 +533,7 @@ textarea {
   .small-nav {
     display: none;
   }
-  /* .my-sm-links {
-    display: none;
-  } */.card 
+  .card 
   .menu-small-btn {
     display: none;
   }
@@ -808,7 +791,6 @@ textarea {
   /* projects */
   .myDiv {
     background-image: none;
-    /* background-color: #43ccba; */
     box-shadow: none;
     
   }
@@ -1009,5 +991,16 @@ textarea {
   .cards-section{
     grid-template-columns: 1fr 1fr;
     }
+}
 
+@media screen and (min-width: 1400px){
+  .card-container img {
+    width: 30em;
+    height: 20em;
+  }
+  .cards-section{
+    grid-template-columns: 1fr 1fr;
+    width: 80%;
+    margin: auto;
+    }
 }
