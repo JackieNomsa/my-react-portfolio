@@ -453,13 +453,16 @@ textarea {
   margin: auto;
   margin-top: 0;
   text-align: center;
+  font-size: small;
   
 }
 
 .contact_details{
   color: #e6e6e6b7;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
+  font-size: small;
+  margin: 0;
 }
 
 
@@ -950,7 +953,7 @@ textarea {
 
   .more-footer {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     text-align: center;
   }
 
