@@ -219,7 +219,8 @@ body {
   color: #d31ea6;
   margin: auto;
   padding-bottom: 1em;
-  border-bottom: 2px solid #669db3ff;
+  padding-top: 1em;
+  border-bottom: 1px solid #669db3ff;
 }
 
 .name {
@@ -237,7 +238,7 @@ body {
   padding-left: 0.5em;
   margin: 2em 2em 0 0;
   text-align: left;
-  border-left: .3em solid #265456;
+  border-left: .15em solid #265456;
   /* border-width: 1em; */
   /* padding-bottom: 1em; */
 }
@@ -307,8 +308,8 @@ body {
 }
 
 .one-skill {
-  width: 5rem;
-  height: 5rem;
+  width: 4.5rem;
+  height: 4.5rem;
   background-color: #669db3ff;
   color: #fff;
   border-radius: 50%;
@@ -325,7 +326,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  width: 70%;
+  width: 95%;
   place-items: center;
 }
 /* projects */
@@ -333,20 +334,17 @@ body {
 .cards-section {
   width: 90%;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-   /* display: flex;  */
-  /* flex-wrap: wrap; */
-  /* justify-content: center; */
+  grid-template-columns: 1fr ;
+  grid-gap: 1em;
   text-align: center;
+  margin-top: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
   margin: auto;
 }
 .myDiv {
-  /* background-image: url("https://images.unsplash.com/photo-1605898011598-c5bbcf126cc5?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjZ8fHByb2plY3R8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
-  background-attachment: fixed;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center; */
-  /* box-shadow: inset 0 0 0 50em rgba(85, 84, 84, 0.7); */
+  width: 80%;
+  margin: auto;
 }
 
 .card-back a {
@@ -363,8 +361,7 @@ body {
 }
 
 .cards-section img {
-  width: 10em;
-  height: 10em;
+  
   /* border-radius: 3%; */
 }
 .cards-section .myDesc {

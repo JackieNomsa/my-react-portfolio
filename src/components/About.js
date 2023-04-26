@@ -22,7 +22,7 @@ const About = () => {
           <Para info="I enjoy being challenged, I have learnt how to creatively solve problems,
            with each problem giving me an idea on how to solve the next using code. I know how to look at a problem and figure out a solution that is specific to it and can be integrated. I also enjoy reading code just to figure out how it can be broken,
            put together, and improved on or done differently." />
-          <Para info="I am currently improving my full stack development skills but I am also interested DevOps, and I am hoping to someday pursue a career in Cyber Security specifically Penetration testing."/>
+          {/* <Para info="I am currently improving my full stack development skills but I am also interested DevOps, and I am hoping to someday pursue a career in Cyber Security specifically Penetration testing."/> */}
         </div>
       </div>
     </div>
