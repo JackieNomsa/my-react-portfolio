@@ -26,7 +26,7 @@ const my_projects = [
     id: 4,
     img: proje,
     title: "Table Tennis",
-    description: "Python and pygame digital table  tennis, for two players.",
+    description: "Python and pygame digital table tennis, for two players, can be played on one computer",
     link: "https://github.com/JackieNomsa/TableTennis",
     site_link: "https://jackienomsa.github.io/TableTennis/",
   },
@@ -35,7 +35,7 @@ const my_projects = [
     img: projf,
     title: "Expense Tracker",
     description:
-      "This is a Django/Python app that  lets you know if you have reached your budget for the month or how much you have left.",
+      "This is a Django/Python app that  lets you know if you have reached your budget for the set amount",
     link: "https://github.com/JackieNomsa/my_dj_exp_tracker.git",
     site_link: "https://jackienomsa.github.io/kasi-rooms/",
   },

@@ -23,7 +23,7 @@ const ProjectLarge = ({ id, img, title, description, link, site_link }) => {
         </div>
         <div className="card-back">
           <div className="card-b-info">
-            <h4>{title}</h4>
+            <h5>{title}</h5>
             <p className="myDesc" data-aos>
               {description}
             </p>
@@ -48,7 +48,7 @@ const ProjectSmall = ({ id, img, title, description, link, site_link }) => {
       image={img}
     />
     <CardContent>
-      <Typography gutterBottom variant="h5" component="div">
+      <Typography gutterBottom variant="h6" component="div">
         {title}
       </Typography>
       <Typography variant="body2" color="text.secondary">
@@ -76,7 +76,7 @@ const CreateProject = (info) => {
     
     handleResize()
   })
-  if(width > 800){
+  if(width > 1032){
     return (
       <ProjectLarge
         img={img}
