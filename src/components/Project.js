@@ -3,11 +3,13 @@ import React, { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
-const Project = ({ id, img, title, description, link, site_link }) => {
+const ProjectLarge = ({ id, img, title, description, link, site_link }) => {
+  
   useEffect(() => {
     Aos.init({ duration: 2000 });
   });
   return (
+    
     <div className="card" data-aos="fade-left" key={id}>
       <div className="card-container">
         <div className="card-front">
@@ -19,8 +21,6 @@ const Project = ({ id, img, title, description, link, site_link }) => {
             <p className="myDesc" data-aos>
               {description}
             </p>
-
-            
           </div>
         </div>
       </div>
@@ -30,8 +30,9 @@ const Project = ({ id, img, title, description, link, site_link }) => {
 
 const createProject = (info) => {
   const { img, title, description, link, site_link } = info;
+
   return (
-    <Project
+    <ProjectLarge
       img={img}
       title={title}
       description={description}

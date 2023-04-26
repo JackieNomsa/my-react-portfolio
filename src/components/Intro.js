@@ -1,4 +1,5 @@
 import React from "react";
+import { RiArrowDownLine } from "react-icons/ri"
 
 export const Intro = ({ value }) => {
   if (value === "loading") {
@@ -12,7 +13,8 @@ export const Intro = ({ value }) => {
       <div>
         <p className="my-name">Jackie Nomsa Dube</p>
 
-        <p className="title">A Software Engineer</p>
+        <p className="title">A Software Developer</p>
+        <span className="arrow"><RiArrowDownLine/></span>
       </div>
     );
   }

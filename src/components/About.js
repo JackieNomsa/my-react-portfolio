@@ -11,29 +11,19 @@ const About = () => {
   return (
     <div className="about" id="about">
       <h1 className="heading">About</h1>
-      <h1 className="name about-animate">Hi, I am Jackie, nice to meet you</h1>
+      <h1 className="name about-animate">Hi there, I am Jackie,</h1>
       {/* <p className="my-passion about-animate" data-aos="fade-right">
         A Software Engineer
       </p> */}
       <div className="more-info about-animate">
+      <Image />
         <div className="paragraphs">
-          <Para info="I am a full stack developer intern at absa where I enjoy challenges as they come, working on with Java, Springboot, angular and postgres , I completed my studies at WeThinkCode_ where I learnt
-            how to write acceptance tests,
-          Refactor existing code,
-          Using CodeScene to understand my codebase and its health,
-          Persistence with relational databases, SQL, JDBC,
-          Build pipelines,
-          Docker containers,
-          Separation of Concerns and
-          Building HTTP and Web APIs" />
-
+          <Para info="A Software Developer, Currently working as a full stack on projects using Java, Springboot, Angular and Postgres , I completed my studies at WeThinkCode_ where I obtained an NQF5 certificate in Systems Development." />
           <Para info="I enjoy being challenged, I have learnt how to creatively solve problems,
-           with each giving me an idea on how to solve our world's everyday problems using code, I know how to look at a problem and figure out a solution that is specific to it and can be integrated. I also enjoy reading code just to figure out how it can be broken,
+           with each problem giving me an idea on how to solve the next using code. I know how to look at a problem and figure out a solution that is specific to it and can be integrated. I also enjoy reading code just to figure out how it can be broken,
            put together, and improved on or done differently." />
-
-          <Para info="I am currently improving my full stack development skills but I also am interested DevOps, and cloud computing which will help me in pursuing a career in Cyber Security specifically Penetration testing in the near future."/>
+          <Para info="I am currently improving my full stack development skills but I am also interested DevOps, and I am hoping to someday pursue a career in Cyber Security specifically Penetration testing."/>
         </div>
-        <Image />
       </div>
     </div>
   );

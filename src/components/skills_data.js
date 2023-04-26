@@ -6,6 +6,7 @@ const skills_data = [
   "REACT",
   "PYTHON",
   "POSTGRES",
+  "JENKINS",
   "CSS3",
   "HTML5",
 ];

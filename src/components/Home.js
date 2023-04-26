@@ -20,8 +20,11 @@ const Home = () => {
       return (
         <div id="home">
           <p className="my-name">Jackie Nomsa Dube</p>
-
-          <p className="title">A Web Developer</p>
+          <p className="title">A Software Developer</p>
+          {/* <a href="#about">
+          <span className="arrow"><RiArrowDownLine/></span>
+          </a> */}
+          
         </div>
       );
     }
