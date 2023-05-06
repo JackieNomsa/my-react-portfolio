@@ -19,7 +19,7 @@ const my_projects = [
     img: projb,
     title: "SpringBoot CRUD API",
     description:
-      "A SpringBoot cruid api for a Booking system, built using Java, Springboot, postgreSQL, JDBC and is tested using JUnit and Mockito",
+      "A SpringBoot crud api for a Booking system, built using Java, Springboot, postgreSQL, JDBC and is tested using JUnit and Mockito",
     link: "https://github.com/JackieNomsa/clinic",
     site_link: "https://jackienomsa.github.io/kasi-rooms/",
   },
