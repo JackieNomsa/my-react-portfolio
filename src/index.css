@@ -1000,8 +1000,18 @@ button{
   width: 10%;
   font-size: large;
   color: #ffffff;
+  padding: 1em 2em;
+  border-radius: 5px;
+}
+
+.more-work{
+  width: 30%;
+  margin: auto;
+  text-align: center;
+  margin-top: 1em;
 }
 
 .view-more:hover{
-  color: #7808d4;
+  color: #9330e4;
+
 }

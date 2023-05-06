@@ -31,7 +31,9 @@ function App() {
       <div className="myDiv" id="projects">
         <h1 className="heading">Projects</h1>
         <div className="cards-section">{my_projects.map(createProject)}</div>
+        <div className="more-work">
         <a href="https://github.com/JackieNomsa" className="view-more">View More Work <BsCodeSlash/></a>
+        </div>
       </div>
       <Contact />
       <Footer />
