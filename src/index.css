@@ -941,6 +941,16 @@ textarea {
 }
 
 @media screen and (min-width: 1124px) {
+  .contact-form {
+    border-radius: 4px;
+    position: relative;
+    background-color: #041E29;
+    transition: 0.3s all;
+  }
+  .contact-form:hover {
+    background-color: #063b51;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.05);
+  }
   .contact-form form {
     width: 60%;
     margin: auto;
@@ -958,6 +968,16 @@ textarea {
 }
 
 @media screen and (max-width: 666px){
+  .contact-form {
+    border-radius: 4px;
+    position: relative;
+    background-color: #041E29;
+    transition: 0.3s all;
+  }
+  .contact-form:hover {
+    background-color: #063b51;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.05);
+  }
   .cards-section{
   grid-template-columns: 1fr ;
 
@@ -965,12 +985,32 @@ textarea {
 
 }
 @media screen and (min-width: 1000px){
+  .contact-form {
+    border-radius: 4px;
+    position: relative;
+    background-color: #041E29;
+    transition: 0.3s all;
+  }
+  .contact-form:hover {
+    background-color: #063b51;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.05);
+  }
   .cards-section{
     grid-template-columns: 1fr 1fr;
     }
 }
 
 @media screen and (min-width: 1032px){
+  .contact-form {
+    border-radius: 4px;
+    position: relative;
+    background-color: #041E29;
+    transition: 0.3s all;
+  }
+  .contact-form:hover {
+    background-color: #063b51;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.05);
+  }
   .card-container img {
     width: 24em;
     height: 16em;
@@ -981,6 +1021,16 @@ textarea {
 }
 
 @media screen and (min-width: 1400px){
+  .contact-form {
+    border-radius: 4px;
+    position: relative;
+    background-color: #041E29;
+    transition: 0.3s all;
+  }
+  .contact-form:hover {
+    background-color: #063b51;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.05);
+  }
   .card-container img {
     width: 30em;
     height: 20em;
