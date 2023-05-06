@@ -8,6 +8,7 @@ import createProject from "./Project";
 import About from "./About";
 import Contact from "./Contact";
 import { FaCogs } from "react-icons/fa";
+import { BsCodeSlash } from 'react-icons/bs';
 
 function App() {
   return (
@@ -30,8 +31,9 @@ function App() {
       <div className="myDiv" id="projects">
         <h1 className="heading">Projects</h1>
         <div className="cards-section">{my_projects.map(createProject)}</div>
+        <a href="https://github.com/JackieNomsa" className="view-more">View More Work <BsCodeSlash/></a>
       </div>
-      {/* <Contact /> */}
+      <Contact />
       <Footer />
     </>
   );

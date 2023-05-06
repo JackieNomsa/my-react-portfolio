@@ -2,6 +2,7 @@ import proja from "../components/images/proj-1.PNG";
 import projc from "./images/proj-3.PNG";
 import proje from "./images/table-tennis.PNG";
 import projf from "./images/proj-6.PNG";
+import projb from "./images/spring.webp"
 
 const my_projects = [
   {
@@ -14,6 +15,15 @@ const my_projects = [
     site_link: "https://jackienomsa.github.io/kasi-rooms/",
   },
   {
+    id: 1,
+    img: projb,
+    title: "SpringBoot CRUD API",
+    description:
+      "A SpringBoot cruid api for a Booking system, built using Java, Springboot, postgreSQL, JDBC and is tested using JUnit and Mockito",
+    link: "https://github.com/JackieNomsa/clinic",
+    site_link: "https://jackienomsa.github.io/kasi-rooms/",
+  },
+  {
     id: 2,
     img: projc,
     title: "Movie web scrapper",
@@ -22,16 +32,16 @@ const my_projects = [
     link: "https://github.com/JackieNomsa/python-web-scrapper.git",
     site_link: "https://jackienomsa.github.io/kasi-rooms/",
   },
+  // {
+  //   id: 3,
+  //   img: proje,
+  //   title: "Table Tennis",
+  //   description: "Python and pygame digital table tennis, for two players, can be played on one computer",
+  //   link: "https://github.com/JackieNomsa/TableTennis",
+  //   site_link: "https://jackienomsa.github.io/TableTennis/",
+  // },
   {
     id: 4,
-    img: proje,
-    title: "Table Tennis",
-    description: "Python and pygame digital table tennis, for two players, can be played on one computer",
-    link: "https://github.com/JackieNomsa/TableTennis",
-    site_link: "https://jackienomsa.github.io/TableTennis/",
-  },
-  {
-    id: 5,
     img: projf,
     title: "Expense Tracker",
     description:

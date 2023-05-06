@@ -1006,3 +1006,13 @@ textarea {
 button{
   margin: 1em;
 }
+
+.view-more{
+  width: 10%;
+  font-size: large;
+  color: #ffffff;
+}
+
+.view-more:hover{
+  color: #7808d4;
+}

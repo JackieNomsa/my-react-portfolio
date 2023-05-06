@@ -1,9 +1,8 @@
 import React, { useEffect, useState } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import { HiOutlineMail } from "react-icons/hi";
-import { FaWhatsapp } from "react-icons/fa";
-import { BiPhoneCall } from "react-icons/bi";
+import { IoSend } from "react-icons/io5";
+
 
 const Contact = () => {
   useEffect(() => {
@@ -44,15 +43,43 @@ const Contact = () => {
     <>
       <div className="contact-form">
         <h1 className="heading" data-aos="fade-right" id="contact">
-          Say Hi,
+          Get in touch
         </h1>
-        <p>If you have any potential projects in mind or just to say 'Hi'. </p>
+        <form action="https://formspree.io/f/maylgqjl" method="post" id="form">
+          <input
+            type="email"
+            name="email"
+            placeholder="Enter your email"
+            data-aos="fade-up"
+            id="my_email"
+            onKeyUp={() => validateEmail()}
+            onChange={(e) => setEmail(e.target.value)}
+            value={email}
+            required
+          />
+          <span id="email-text"></span>
 
-        <div>
-                <p><HiOutlineMail/> jackienomsa3@gmail.com</p>
-                <p><FaWhatsapp/> 067 076 9436</p>
-                <p><BiPhoneCall/> 067 076 9436</p>
-            </div>
+          <input
+            type="text"
+            name="subject"
+            placeholder="Enter subject"
+            data-aos="fade-up"
+            onChange={(e) => setSubject(e.target.value)}
+            value={subject}
+            required
+          />
+          <textarea
+            placeholder="message"
+            name="message"
+            rows="10"
+            data-aos="fade-up"
+            onChange={(e) => setMessage(e.target.value)}
+            value={message}
+            required></textarea>
+          <button className="submit-btn" id="submit">
+            send <IoSend className="send-icon" />
+          </button>
+        </form>
       </div>
     </>
   );
