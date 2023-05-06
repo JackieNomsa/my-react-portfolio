@@ -22,14 +22,16 @@ const Contact = () => {
     if (my_email.match(emailPattern)) {
       form.classList.add("valid");
       form.classList.remove("invalid");
-      text.innerHTML = "your email is valid";
+      text.innerHTML = "Your Email Is Valid";
       text.style.color = "#66ff00";
+      text.style.fontSize = "12px";
       document.getElementById("submit").disabled = false;
     } else {
       form.classList.add("invalid");
       form.classList.remove("valid");
-      text.innerHTML = "please enter a valid email";
+      text.innerHTML = "Enter a Valid Email";
       text.style.color = "red";
+      text.style.fontSize = "12px";
       document.getElementById("submit").disabled = true;
     }
     if (my_email === "") {
@@ -43,7 +45,7 @@ const Contact = () => {
     <>
       <div className="contact-form">
         <h1 className="heading" data-aos="fade-right" id="contact">
-          Get in touch
+          Contact Me:
         </h1>
         <form action="https://formspree.io/f/maylgqjl" method="post" id="form">
           <input
