@@ -1,25 +1,23 @@
 import React from "react";
-import { IoLogoGithub, IoLogoLinkedin } from "react-icons/io";
+import { IoLogoGithub, IoLogoLinkedin, IoLogoWhatsapp } from "react-icons/io";
 import { HiOutlineMail } from "react-icons/hi";
-import { FaWhatsapp } from "react-icons/fa";
-import { BiPhoneCall } from "react-icons/bi";
-
 
 
 function Footer(){
     return(
         <div className="my_footer">
-            <div className="contact_details">
-                <p><HiOutlineMail/> jackienomsa3@gmail.com</p>
-                {/* <p><FaWhatsapp/> 067 076 9436</p> */}
-                <p><BiPhoneCall/> 067 076 9436</p>
-            </div>
             <div className="my-sm-links">
-          <a href="https://github.com/JackieNomsa">
+          <a href="https://github.com/JackieNomsa" target="_blank">
             <IoLogoGithub />
           </a>
-          <a href="https://www.linkedin.com/in/jackie-nomsa-dube-390b66131">
+          <a href="https://www.linkedin.com/in/jackie-nomsa-dube-390b66131" target="_blank">
             <IoLogoLinkedin />
+          </a>
+          <a href="https://wa.me/0670769436" target="_blank">
+            <IoLogoWhatsapp />
+          </a>
+          <a href="mailto:jackienomsadube@gmail.com" target="_blank">
+            <HiOutlineMail />
           </a>
         </div>
         <p>&copy; Copyright Reserved Jackie-Nomsa 2021

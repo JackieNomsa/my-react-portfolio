@@ -1047,11 +1047,11 @@ button{
 }
 
 .view-more{
-  width: 10%;
-  font-size: large;
   color: #ffffff;
-  padding: 1em 2em;
-  border-radius: 5px;
+  text-decoration: none;
+  font-size: small;
+  font-weight: bold;
+  color: rgb(21, 188, 194);
 }
 
 .more-work{
