@@ -117,7 +117,20 @@ body {
 .my-sm-links a {
   color: #fff;
   font-size: 2em;
-  padding: 1em;
+  padding: .3em;
+}
+
+.my-sm-links a.whatsapp:hover{
+  color:rgb(15, 218, 35);
+}
+.my-sm-links a.linkedin:hover{
+  color:rgb(15, 171, 218);
+}
+.my-sm-links a.github:hover{
+  color:rgb(141, 148, 148);
+}
+.my-sm-links a.email:hover{
+  color:rgb(218, 15, 110);
 }
 
 .border-bot {
@@ -419,7 +432,7 @@ textarea {
   place-items: center;
   background-color: rgb(32, 55, 65);
   color: #f0f6f7ff;
-  padding: 2em;
+  padding: 4em;
   font-weight: bold;
   margin: auto;
   margin-top: 0;
