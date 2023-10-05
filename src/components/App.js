@@ -15,9 +15,6 @@ function App() {
       <Home />
       <About />
       <div className="section-one">
-        <h1 className="heading" id="skills">
-          ~
-        </h1>
         <div className="my-skills">
           <div className="total_skills">
             <Skill skills={data} />

@@ -63,14 +63,11 @@ function Nav() {
           <a href="#about">
             About
           </a>
-          <a href="#skills">
-            Journey
-          </a>
           <a href="#projects">
             Services
           </a>
           <a href="#projects">
-            Rusume
+            Projects
           </a>
           <a href="#contact">
             Contact

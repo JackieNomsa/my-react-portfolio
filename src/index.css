@@ -264,8 +264,10 @@ body {
 
 .total_skills {
   color: #4F4D47;
-  width: 80%;
   margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  
 }
 
 .my-icon {
@@ -276,29 +278,19 @@ body {
 }
 
 .one-skill {
-  width: 4.5rem;
-  height: 4.5rem;
   background-color: #f9f9f9;
   color: #4F4D47;
-  display: flex;
-  place-items: center;
   justify-content: center;
   font-size: 0.8em;
-  margin: 1em;
   text-align: center;
+  padding: .4em .7em;
+  border: 1px solid #787670;
 }
 
-.total_skills {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  width: 95%;
-  place-items: center;
-}
 /* projects */
 
 .cards-section {
-  width: 90%;
+  width: 60%;
   display: grid;
   grid-template-columns: 1fr ;
   grid-gap: 1em;
@@ -332,7 +324,7 @@ body {
 }
 
 .card {
-  margin: 1em;
+  margin: .5em;
   text-align: center;
   padding: 0 0 2em 0;
 }
@@ -420,14 +412,7 @@ textarea {
     height: 18em;
     margin-top: 0;
   }
-
-
-  .one-skill {
-    margin: 2em;
-  }
-  .total_skills {
-    width: 60%;
-  }
+ 
 
   .my-intro .my-name {
     font-size: 2rem;
@@ -553,7 +538,7 @@ textarea {
     z-index: 1;
     border-bottom: 1px solid #4F4D47;
     border-top: 1px solid #4F4D47;
-    padding: 1em 2em;
+    padding: 1em 3em;
     transform: translate(-50%, -50%);
   }
 
@@ -563,7 +548,7 @@ textarea {
     text-decoration: none;
     color: #4F4D47;
     transition: all 0.5s ease;
-    padding: 1em 2em;
+    padding: 1em 2.9em;
   }
 
   .nav-one a:hover {
@@ -667,7 +652,7 @@ textarea {
   .more-info {
     grid-template-columns: 1fr 2fr;
     width: 70%;
-    margin: auto;
+    margin: 0 auto;
     margin-top: 4em;
   }
 
@@ -705,30 +690,19 @@ textarea {
   }
 
   .one-skill {
-    box-shadow: none;
-    background-color: #F9F9F9;
-    padding: 0.7em;
-    width: 5.2rem;
-    height: 5.2rem;
-    display: grid;
+    background-color: #4F4D47;
     place-items: center;
     font-size: 0.7em;
     font-weight: bold;
     transition: all 0.5s linear;
-    color: #4F4D47;
+    color: #F9F9F9;
   }
 
   .one-skill:hover {
-    background-color: #fff;
-    color: #4F4D47;
+    background-color: #4F4D47;
+    color: #fff;
   }
 
-  .total_skills {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    width: 70%;
-    place-items: center;
-  }
 
   /* projects */
   .myDiv {
@@ -794,7 +768,7 @@ textarea {
 
   .card-back p {
     display: block;
-    width: 13em;
+    width: 10em;
     text-align: center;
   }
 
@@ -808,8 +782,8 @@ textarea {
   }
 
   .card-container img {
-    width: 20em;
-    height: 15em;
+    width: 15em;
+    height: 10em;
   }
 
   .card:hover .card-container {
@@ -920,11 +894,13 @@ textarea {
   .more-info {
     grid-template-columns: 1fr 1fr;
     width: 60%;
-    margin: 7em auto;
+    margin: 1em auto;
+    margin-top: 8em;
   }
 
   .my-skills {
     width: 70%;
+    margin: auto;
   }
 }
 
@@ -971,8 +947,8 @@ textarea {
     background-color: #F9F9F9;
   }
   .card-container img {
-    width: 24em;
-    height: 16em;
+    width: 20em;
+    height: 12em;
   }
   .cards-section{
     grid-template-columns: 1fr 1fr;
@@ -995,7 +971,7 @@ textarea {
   }
   .cards-section{
     grid-template-columns: 1fr 1fr;
-    width: 80%;
+    width: 70%;
     margin: auto;
     }
 }

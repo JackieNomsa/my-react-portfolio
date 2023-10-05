@@ -11,7 +11,6 @@ const skills_data = [
   "SQL",
   "GIT",
   "DJANGO",
-  "MICROSOFT POWERAPPS",
   "GITHUB/GITLAB",
   "REACT"
 ];

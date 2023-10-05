@@ -9,9 +9,9 @@ const Skill = ({ data }) => {
   }, []);
   return skills_data.map((skill, index) => {
     return (
-      <p key={index} className="one-skill" data-aos="fade-left">
+      <span key={index} className="one-skill">
         {skill}
-      </p>
+      </span>
     );
   });
 };
