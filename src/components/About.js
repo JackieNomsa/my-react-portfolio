@@ -10,10 +10,8 @@ const About = () => {
   }, []);
   return (
     <div className="about" id="about">
-      <h1 className="heading">About</h1>
-      <h1 className="name about-animate">Hi there, I am Jackie,</h1>
+      <h1 className="heading">--</h1>
       <div className="more-info about-animate">
-      <Image />
         <div className="paragraphs">
           <Para info="A Software Developer, Currently working as a full stack on projects using Java, Springboot, Angular and Postgres , I completed my studies at WeThinkCode_ where I obtained an NQF5 certificate in Systems Development." />
           <Para info="I enjoy being challenged, I have learnt how to creatively solve problems,
@@ -21,6 +19,7 @@ const About = () => {
            put together, and improved on or done differently." />
           {/* <Para info="I am currently improving my full stack development skills but I am also interested DevOps, and I am hoping to someday pursue a career in Cyber Security specifically Penetration testing."/> */}
         </div>
+        <Image />
       </div>
     </div>
   );

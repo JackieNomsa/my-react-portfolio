@@ -58,16 +58,22 @@ function Nav() {
       <div className="large-nav">
         <div className="nav-one">
           <a href="#home">
-            <IoHome />
+            Home
           </a>
           <a href="#about">
-            <SiAboutdotme />
+            About
           </a>
           <a href="#skills">
-            <GiSkills />
+            Journey
           </a>
-          <a className="proj" href="#projects">
-            <GrProjects />
+          <a href="#projects">
+            Services
+          </a>
+          <a href="#projects">
+            Rusume
+          </a>
+          <a href="#contact">
+            Contact
           </a>
         </div>
         

@@ -3,9 +3,9 @@ import React from "react";
 function Para(props) {
   return (
     <>
-    <p className="myPara about-animate" data-aos="fade-up-right">
+    <h1>~~</h1>
+    <p className="myPara about-animate">
       {props.info}
-      
     </p>
     </>
   );
