@@ -301,8 +301,12 @@ body {
   margin: auto;
 }
 .myDiv {
-  width: 95%;
   margin: auto;
+  background-image: url("./components/images/6.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .MuiPaper-root{
   margin: auto;
@@ -311,7 +315,6 @@ body {
 .card-back button {
   text-decoration: none;
   color: #4F4D47;
-  background-color: #f9f9f9;
   margin-top: 2em;
   cursor: pointer;
   padding: 0.6em;
@@ -615,9 +618,13 @@ textarea {
     font-size: 2.1rem; 
   }
 
-  .my-intro .title {
+  .my-intro {
     color: #4F4D47;
     font-size: 1rem;
+  }
+
+  .title{
+    font-size: 10px;
   }
 
   /* about */
@@ -712,7 +719,7 @@ textarea {
 
   .cards-section .myDesc {
     display: block;
-    width: 80%;
+    width: 85%;
     margin: auto;
     text-align: center;
 
@@ -720,9 +727,8 @@ textarea {
   }
 
   .card {
-    width: 40%;
-    background-color: #F9F9F9;
-    perspective: 80em;
+    width: 50%;
+    perspective: 70em;
     padding: 1em 2em;
     margin: auto;
     margin-top: 1em;

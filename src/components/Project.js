@@ -16,7 +16,7 @@ const ProjectLarge = ({ id, img, title, description, link, site_link }) => {
   });
   return (
     
-    <div className="card" data-aos="fade-left" key={id}>
+    <div className="card" key={id}>
       <div className="card-container">
         <div className="card-front">
           <img src={img} alt="my app" />
