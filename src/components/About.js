@@ -10,7 +10,6 @@ const About = () => {
   }, []);
   return (
     <div className="about" id="about">
-      <h1 className="heading">--</h1>
       <div className="more-info about-animate">
         <div className="paragraphs">
           <Para info="A Software Developer, Currently working as a full stack on projects using Java, Springboot, Angular and Postgres , I completed my studies at WeThinkCode_ where I obtained an NQF5 certificate in Systems Development." />

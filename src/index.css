@@ -194,10 +194,7 @@ body {
   text-align: center;
   font-size: 1.4em;
   color: #4F4D47;
-  margin: auto;
-  padding-bottom: 1em;
-  padding-top: 1em;
-  border-bottom: 1px solid #4F4D47;
+  margin: 0 auto;
 }
 
 .name {
@@ -233,7 +230,6 @@ body {
 
 .about {
   width: 100vw;
-  padding-top: 1em;
   background-image: url("./components/images/6.jpg");
   background-attachment: fixed;
   background-size: cover;
@@ -241,7 +237,6 @@ body {
   background-position: center;
   overflow: hidden;
   margin: 0 auto;
-  margin-top: 10em;
   text-align: center;
 }
 
@@ -285,12 +280,10 @@ body {
   height: 4.5rem;
   background-color: #f9f9f9;
   color: #4F4D47;
-  border-radius: 50%;
   display: flex;
   place-items: center;
   justify-content: center;
   font-size: 0.8em;
-  box-shadow: 0.5em 0.9em 1em#000;
   margin: 1em;
   text-align: center;
 }
@@ -493,10 +486,8 @@ textarea {
 
   .heading {
     font-weight: lighter;
-    border-bottom: 0.2em solid #f9f9f9;
     width: 20%;
-    margin: 1.2em auto;
-    padding: 1em;
+    margin: 0 auto;
     text-align: center;
     display: block;
   }
@@ -677,12 +668,12 @@ textarea {
     grid-template-columns: 1fr 2fr;
     width: 70%;
     margin: auto;
+    margin-top: 4em;
   }
 
   .about {
     line-height: 1.5em;
     width: 100%;
-    margin: 0 auto;
     padding-top: 5em;
     background-color: #F9F9F9;
     text-align: center;
@@ -697,19 +688,18 @@ textarea {
 
   /* Skills */
 
-  #skills {
-    padding-top: 2em;
-  }
+  
   .my-skills {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    width: 80%;
+    grid-template-columns:1fr;
+    width: 50%;
     padding: 4em auto;
+    margin: auto;
   }
 
   .my-icon {
     display: block;
-    font-size: 22em;
+    font-size: 10em;
     text-align: left;
     color: #4F4D47;
   }
@@ -720,13 +710,12 @@ textarea {
     padding: 0.7em;
     width: 5.2rem;
     height: 5.2rem;
-    border-radius: 50%;
     display: grid;
     place-items: center;
     font-size: 0.7em;
     font-weight: bold;
     transition: all 0.5s linear;
-    color: #fff;
+    color: #4F4D47;
   }
 
   .one-skill:hover {
@@ -736,7 +725,7 @@ textarea {
 
   .total_skills {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     width: 70%;
     place-items: center;
   }
@@ -931,7 +920,7 @@ textarea {
   .more-info {
     grid-template-columns: 1fr 1fr;
     width: 60%;
-    margin: auto;
+    margin: 7em auto;
   }
 
   .my-skills {
