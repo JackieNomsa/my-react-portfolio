@@ -15,11 +15,8 @@ const About = () => {
       <div className="more-info about-animate">
       <Image />
         <div className="paragraphs">
-          <Para info="A Software Developer, Currently working as a full stack on projects using Java, Springboot, Angular and Postgres , I completed my studies at WeThinkCode_ where I obtained an NQF5 certificate in Systems Development." />
-          <Para info="I enjoy being challenged, I have learnt how to creatively solve problems,
-           with each problem giving me an idea on how to solve the next using code. I know how to look at a problem and figure out a solution that is specific to it and can be integrated. I also enjoy reading code just to figure out how it can be broken,
-           put together, and improved on or done differently." />
-          {/* <Para info="I am currently improving my full stack development skills but I am also interested DevOps, and I am hoping to someday pursue a career in Cyber Security specifically Penetration testing."/> */}
+          <Para info="I am an experienced software engineer with a solid foundation from WeThinkCode_, where I developed expertise in areas such as acceptance testing, code refactoring, SQL, Docker, and API creation. My technical proficiency spans Java, SpringBoot, Angular, PostgreSQL, and Jenkins, further enhanced by hands-on experience as a full-stack developer at one of South Africa’s largest banks. Additionally, I have contributed to engineering projects with Microsoft Apps and undertaken freelance work in web development, database management, and mobile apps." />
+          <Para info="In my current role as a Graduate Software Engineer at Entersekt, I work on back-end applications using Java, Golang, Docker, and Kubernetes. Beyond professional duties, I am passionate about mentoring aspiring developers in Python, Java, and JavaScript, which has helped me refine my technical and communication skills. With a commitment to continuous learning, I look forward to applying my problem-solving abilities and evolving expertise in dynamic tech environments." />
         </div>
       </div>
     </div>
