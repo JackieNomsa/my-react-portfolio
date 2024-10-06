@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/my-react-portfolio/static/css/main.2b71290b.css",
-    "main.js": "/my-react-portfolio/static/js/main.0c705ecb.js",
-    "static/media/6.jpg": "/my-react-portfolio/static/media/6.2f11306ae9d063b57791.jpg",
+    "main.css": "/my-react-portfolio/static/css/main.b167715c.css",
+    "main.js": "/my-react-portfolio/static/js/main.d062c643.js",
+    "static/media/k.png": "/my-react-portfolio/static/media/k.152505c41e0736c10c25.png",
+    "static/media/one.jpg": "/my-react-portfolio/static/media/one.f18d215f767f25f15942.jpg",
+    "static/media/6.jpg": "/my-react-portfolio/static/media/6.c8e0245e7a2031cd60c6.jpg",
     "static/media/proj-6.PNG": "/my-react-portfolio/static/media/proj-6.1a6d53277935140a94cb.PNG",
     "static/media/proj-1.PNG": "/my-react-portfolio/static/media/proj-1.9aaad5dc71beaea20e51.PNG",
     "static/media/proj-3.PNG": "/my-react-portfolio/static/media/proj-3.b79421f8543cef69642d.PNG",
-    "static/media/me4.jpeg": "/my-react-portfolio/static/media/me4.8e164b34fefffbe4e4ce.jpeg",
     "static/media/table-tennis.PNG": "/my-react-portfolio/static/media/table-tennis.c76954ef7b03ec71a65a.PNG",
     "static/media/spring.webp": "/my-react-portfolio/static/media/spring.ef4c4fa8b877c77dadc3.webp",
     "index.html": "/my-react-portfolio/index.html",
-    "main.2b71290b.css.map": "/my-react-portfolio/static/css/main.2b71290b.css.map",
-    "main.0c705ecb.js.map": "/my-react-portfolio/static/js/main.0c705ecb.js.map"
+    "main.b167715c.css.map": "/my-react-portfolio/static/css/main.b167715c.css.map",
+    "main.d062c643.js.map": "/my-react-portfolio/static/js/main.d062c643.js.map"
   },
   "entrypoints": [
-    "static/css/main.2b71290b.css",
-    "static/js/main.0c705ecb.js"
+    "static/css/main.b167715c.css",
+    "static/js/main.d062c643.js"
   ]
 }
